@@ -1,24 +1,26 @@
-//
-//  CanIEatAppDelegate.m
-//  CanIEat
-//
-//  Created by jlnbuiles on 6/21/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "CanIEatAppDelegate.h"
+#import "ChangeMenuViewController.h"
 
 @implementation CanIEatAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window=window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navController = [[UINavigationController alloc] init];
+    ChangeMenuViewController *changeMenuVC = [[ChangeMenuViewController alloc] init];
+    changeMenuVC.title = @"Add an Item";
+    [navController pushViewController:changeMenuVC animated:NO];
+    [changeMenuVC release];
+    [window addSubview:navController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -61,7 +63,7 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [window release];
     [super dealloc];
 }
 
