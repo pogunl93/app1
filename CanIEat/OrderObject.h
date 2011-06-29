@@ -3,12 +3,15 @@
 #define READY_FOR_PICK_UP 1
 #define BEING_DELIVERED 2
 
-@interface OrderObject : NSObject {
-    int status;
+@interface OrderObject : NSObject 
+{
+    BOOL hasBeenDelivered; //same as the status
     double total;// the total the customer will need to pay
-    NSMutableArray *order;// an array of MenuObjects
+    NSMutableArray *items;// an array of MenuObjects
+    NSMutableDictionary *sideChoicesDic;// a dictionary keys; items Strings, objects array of sidechoices  http://es.w3support.net/index.php?db=so&id=908742
+    NSMutableArray *quantityPerItem;// an array of MenuObjects
     BOOL isDelivery;// is it delivery or pick-up?
-    // time order was taken
+    NSDateFormatter *timeOfPurchase; // time order was taken http://stackoverflow.com/questions/2581684/hour-int-taken-from-nsdate-not-behaving-as-expected-at-midnight
 }
 
 @end

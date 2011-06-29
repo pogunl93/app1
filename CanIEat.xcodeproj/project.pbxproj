@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D5417B413B44E1F0007E011 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5417B213B44E1F0007E011 /* WelcomeScreenViewController.m */; };
-		7D5417B513B44E1F0007E011 /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5417B313B44E1F0007E011 /* WelcomeScreenViewController.xib */; };
 		7D61873413B054A1005E9189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873313B054A1005E9189 /* UIKit.framework */; };
 		7D61873613B054A1005E9189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873513B054A1005E9189 /* Foundation.framework */; };
 		7D61873813B054A1005E9189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873713B054A1005E9189 /* CoreGraphics.framework */; };
@@ -47,9 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D5417B113B44E1F0007E011 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeScreenViewController.h; path = ../../../../programming/ios/app1/WelcomeScreenViewController.h; sourceTree = "<group>"; };
-		7D5417B213B44E1F0007E011 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeScreenViewController.m; path = ../../../../programming/ios/app1/WelcomeScreenViewController.m; sourceTree = "<group>"; };
-		7D5417B313B44E1F0007E011 /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeScreenViewController.xib; path = ../../../../programming/ios/app1/WelcomeScreenViewController.xib; sourceTree = "<group>"; };
 		7D61872F13B054A1005E9189 /* CanIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D61873313B054A1005E9189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D61873513B054A1005E9189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,7 +152,10 @@
 				7D61879513B05F71005E9189 /* UserObject.m */,
 				7D61874213B054A1005E9189 /* CanIEatAppDelegate.h */,
 				7D61874313B054A1005E9189 /* CanIEatAppDelegate.m */,
+<<<<<<< HEAD
 				7DEB46E313B65710007886FE /* viewControllers */,
+=======
+>>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
 				7D61874513B054A1005E9189 /* iPhone */,
 				7D61874C13B054A1005E9189 /* iPad */,
 				7D61873A13B054A1005E9189 /* Supporting Files */,
@@ -311,8 +309,11 @@
 				7D61875213B054A2005E9189 /* MainWindow_iPad.xib in Resources */,
 				7D61878E13B05699005E9189 /* MainWindow.xib in Resources */,
 				7D61879813B062AF005E9189 /* notes.rtf in Resources */,
+<<<<<<< HEAD
 				7D5417B513B44E1F0007E011 /* WelcomeScreenViewController.xib in Resources */,
 				7DEB46E113B65700007886FE /* ChangeMenuViewController.xib in Resources */,
+=======
+>>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +358,11 @@
 				7D61878D13B05699005E9189 /* MainWindow.m in Sources */,
 				7D61879313B05B3A005E9189 /* RestaurantObject.m in Sources */,
 				7D61879613B05F71005E9189 /* UserObject.m in Sources */,
+<<<<<<< HEAD
 				7D5417B413B44E1F0007E011 /* WelcomeScreenViewController.m in Sources */,
 				7DEB46E013B65700007886FE /* ChangeMenuViewController.m in Sources */,
+=======
+>>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
