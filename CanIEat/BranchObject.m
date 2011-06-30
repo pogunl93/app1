@@ -1,6 +1,6 @@
-#import "RestaurantObject.h"
+#import "BranchObject.h"
 
-@implementation RestaurantObject
+@implementation BranchObject
 
 @synthesize theMenu;
 

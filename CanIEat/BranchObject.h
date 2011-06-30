@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface RestaurantObject : NSObject {
+@interface BranchObject : NSObject {
     // kind of restaurant. what is its category(s)?
     // its location(s). might have more than one location
     NSMutableArray *theMenu;// this structure will hold the menus
