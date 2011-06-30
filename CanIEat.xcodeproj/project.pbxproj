@@ -7,246 +7,234 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D61873413B054A1005E9189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873313B054A1005E9189 /* UIKit.framework */; };
-		7D61873613B054A1005E9189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873513B054A1005E9189 /* Foundation.framework */; };
-		7D61873813B054A1005E9189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873713B054A1005E9189 /* CoreGraphics.framework */; };
-		7D61873E13B054A1005E9189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D61873C13B054A1005E9189 /* InfoPlist.strings */; };
-		7D61874113B054A1005E9189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61874013B054A1005E9189 /* main.m */; };
-		7D61874413B054A1005E9189 /* CanIEatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61874313B054A1005E9189 /* CanIEatAppDelegate.m */; };
-		7D61874813B054A1005E9189 /* CanIEatAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61874713B054A1005E9189 /* CanIEatAppDelegate_iPhone.m */; };
-		7D61874B13B054A1005E9189 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D61874913B054A1005E9189 /* MainWindow_iPhone.xib */; };
-		7D61874F13B054A1005E9189 /* CanIEatAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61874E13B054A1005E9189 /* CanIEatAppDelegate_iPad.m */; };
-		7D61875213B054A2005E9189 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D61875013B054A1005E9189 /* MainWindow_iPad.xib */; };
-		7D61875913B054A2005E9189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873313B054A1005E9189 /* UIKit.framework */; };
-		7D61875A13B054A2005E9189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873513B054A1005E9189 /* Foundation.framework */; };
-		7D61875B13B054A2005E9189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D61873713B054A1005E9189 /* CoreGraphics.framework */; };
-		7D61876313B054A2005E9189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D61876113B054A2005E9189 /* InfoPlist.strings */; };
-		7D61876613B054A2005E9189 /* CanIEatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7D61876513B054A2005E9189 /* CanIEatTests.h */; };
-		7D61876813B054A2005E9189 /* CanIEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61876713B054A2005E9189 /* CanIEatTests.m */; };
-		7D61878013B054D9005E9189 /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61877C13B054D9005E9189 /* MenuObject.m */; };
-		7D61878113B054D9005E9189 /* OrderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61877E13B054D9005E9189 /* OrderObject.m */; };
-		7D61878D13B05699005E9189 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61878B13B05699005E9189 /* MainWindow.m */; };
-		7D61878E13B05699005E9189 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D61878C13B05699005E9189 /* MainWindow.xib */; };
-		7D61879313B05B3A005E9189 /* RestaurantObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61879213B05B3A005E9189 /* RestaurantObject.m */; };
-		7D61879613B05F71005E9189 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61879513B05F71005E9189 /* UserObject.m */; };
-		7D61879813B062AF005E9189 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D61879713B062AE005E9189 /* notes.rtf */; };
-		7DEB46E013B65700007886FE /* ChangeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB46DE13B65700007886FE /* ChangeMenuViewController.m */; };
-		7DEB46E113B65700007886FE /* ChangeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB46DF13B65700007886FE /* ChangeMenuViewController.xib */; };
+		7D04E00413BC310C00040642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00313BC310C00040642 /* UIKit.framework */; };
+		7D04E00613BC310C00040642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00513BC310C00040642 /* Foundation.framework */; };
+		7D04E00813BC310C00040642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00713BC310C00040642 /* CoreGraphics.framework */; };
+		7D04E00E13BC310C00040642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E00C13BC310C00040642 /* InfoPlist.strings */; };
+		7D04E01113BC310C00040642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E01013BC310C00040642 /* main.m */; };
+		7D04E01813BC310C00040642 /* CanIEatAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E01713BC310C00040642 /* CanIEatAppDelegate_iPhone.m */; };
+		7D04E01B13BC310C00040642 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E01913BC310C00040642 /* MainWindow_iPhone.xib */; };
+		7D04E01F13BC310D00040642 /* CanIEatAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E01E13BC310D00040642 /* CanIEatAppDelegate_iPad.m */; };
+		7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E02013BC310D00040642 /* MainWindow_iPad.xib */; };
+		7D04E02913BC310D00040642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00313BC310C00040642 /* UIKit.framework */; };
+		7D04E02A13BC310D00040642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00513BC310C00040642 /* Foundation.framework */; };
+		7D04E02B13BC310D00040642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00713BC310C00040642 /* CoreGraphics.framework */; };
+		7D04E03313BC310D00040642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E03113BC310D00040642 /* InfoPlist.strings */; };
+		7D04E03613BC310D00040642 /* CanIEatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E03513BC310D00040642 /* CanIEatTests.h */; };
+		7D04E03813BC310D00040642 /* CanIEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E03713BC310D00040642 /* CanIEatTests.m */; };
+		7D04E04313BC311F00040642 /* CanIEatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */; };
+		7D04E04713BC313600040642 /* ChangeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04513BC313600040642 /* ChangeMenuViewController.m */; };
+		7D04E04813BC313600040642 /* ChangeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E04613BC313600040642 /* ChangeMenuViewController.xib */; };
+		7D04E05213BC314A00040642 /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04A13BC314A00040642 /* MenuObject.m */; };
+		7D04E05313BC314A00040642 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E04B13BC314A00040642 /* notes.rtf */; };
+		7D04E05413BC314A00040642 /* OrderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04D13BC314A00040642 /* OrderObject.m */; };
+		7D04E05513BC314A00040642 /* RestaurantObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04F13BC314A00040642 /* RestaurantObject.m */; };
+		7D04E05613BC314A00040642 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E05113BC314A00040642 /* UserObject.m */; };
+		7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E06013BC329100040642 /* WelcomeScreenViewController.m */; };
+		7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7D61875C13B054A2005E9189 /* PBXContainerItemProxy */ = {
+		7D04E02C13BC310D00040642 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7D61872613B054A1005E9189 /* Project object */;
+			containerPortal = 7D04DFF613BC310C00040642 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D61872E13B054A1005E9189;
+			remoteGlobalIDString = 7D04DFFE13BC310C00040642;
 			remoteInfo = CanIEat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D61872F13B054A1005E9189 /* CanIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D61873313B054A1005E9189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7D61873513B054A1005E9189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7D61873713B054A1005E9189 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D61873B13B054A1005E9189 /* CanIEat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanIEat-Info.plist"; sourceTree = "<group>"; };
-		7D61873D13B054A1005E9189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D61873F13B054A1005E9189 /* CanIEat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanIEat-Prefix.pch"; sourceTree = "<group>"; };
-		7D61874013B054A1005E9189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D61874213B054A1005E9189 /* CanIEatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanIEatAppDelegate.h; sourceTree = "<group>"; };
-		7D61874313B054A1005E9189 /* CanIEatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanIEatAppDelegate.m; sourceTree = "<group>"; };
-		7D61874613B054A1005E9189 /* CanIEatAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanIEatAppDelegate_iPhone.h; path = iPhone/CanIEatAppDelegate_iPhone.h; sourceTree = "<group>"; };
-		7D61874713B054A1005E9189 /* CanIEatAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanIEatAppDelegate_iPhone.m; path = iPhone/CanIEatAppDelegate_iPhone.m; sourceTree = "<group>"; };
-		7D61874A13B054A1005E9189 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		7D61874D13B054A1005E9189 /* CanIEatAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanIEatAppDelegate_iPad.h; path = iPad/CanIEatAppDelegate_iPad.h; sourceTree = "<group>"; };
-		7D61874E13B054A1005E9189 /* CanIEatAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanIEatAppDelegate_iPad.m; path = iPad/CanIEatAppDelegate_iPad.m; sourceTree = "<group>"; };
-		7D61875113B054A2005E9189 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		7D61875813B054A2005E9189 /* CanIEatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIEatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D61876013B054A2005E9189 /* CanIEatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanIEatTests-Info.plist"; sourceTree = "<group>"; };
-		7D61876213B054A2005E9189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D61876413B054A2005E9189 /* CanIEatTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanIEatTests-Prefix.pch"; sourceTree = "<group>"; };
-		7D61876513B054A2005E9189 /* CanIEatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanIEatTests.h; sourceTree = "<group>"; };
-		7D61876713B054A2005E9189 /* CanIEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanIEatTests.m; sourceTree = "<group>"; };
-		7D61877B13B054D9005E9189 /* MenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuObject.h; sourceTree = "<group>"; };
-		7D61877C13B054D9005E9189 /* MenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuObject.m; sourceTree = "<group>"; };
-		7D61877D13B054D9005E9189 /* OrderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderObject.h; sourceTree = "<group>"; };
-		7D61877E13B054D9005E9189 /* OrderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderObject.m; sourceTree = "<group>"; };
-		7D61878A13B05699005E9189 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = CanIEat.xcodeproj/MainWindow.h; sourceTree = "<group>"; };
-		7D61878B13B05699005E9189 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindow.m; path = CanIEat.xcodeproj/MainWindow.m; sourceTree = "<group>"; };
-		7D61878C13B05699005E9189 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = CanIEat.xcodeproj/MainWindow.xib; sourceTree = "<group>"; };
-		7D61879113B05B3A005E9189 /* RestaurantObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantObject.h; sourceTree = "<group>"; };
-		7D61879213B05B3A005E9189 /* RestaurantObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantObject.m; sourceTree = "<group>"; };
-		7D61879413B05F71005E9189 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
-		7D61879513B05F71005E9189 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
-		7D61879713B062AE005E9189 /* notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = notes.rtf; path = CanIEat/notes.rtf; sourceTree = "<group>"; };
-		7DEB46DD13B65700007886FE /* ChangeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangeMenuViewController.h; path = ../../../../programming/ios/app1/CanIEat/ChangeMenuViewController.h; sourceTree = "<group>"; };
-		7DEB46DE13B65700007886FE /* ChangeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangeMenuViewController.m; path = ../../../../programming/ios/app1/CanIEat/ChangeMenuViewController.m; sourceTree = "<group>"; };
-		7DEB46DF13B65700007886FE /* ChangeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangeMenuViewController.xib; path = ../../../../programming/ios/app1/CanIEat/ChangeMenuViewController.xib; sourceTree = "<group>"; };
+		7D04DFFF13BC310C00040642 /* CanIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D04E00313BC310C00040642 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D04E00513BC310C00040642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D04E00713BC310C00040642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D04E00B13BC310C00040642 /* CanIEat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanIEat-Info.plist"; sourceTree = "<group>"; };
+		7D04E00D13BC310C00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D04E00F13BC310C00040642 /* CanIEat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanIEat-Prefix.pch"; sourceTree = "<group>"; };
+		7D04E01013BC310C00040642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D04E01613BC310C00040642 /* CanIEatAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanIEatAppDelegate_iPhone.h; path = iPhone/CanIEatAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		7D04E01713BC310C00040642 /* CanIEatAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanIEatAppDelegate_iPhone.m; path = iPhone/CanIEatAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		7D04E01A13BC310C00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		7D04E01D13BC310D00040642 /* CanIEatAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanIEatAppDelegate_iPad.h; path = iPad/CanIEatAppDelegate_iPad.h; sourceTree = "<group>"; };
+		7D04E01E13BC310D00040642 /* CanIEatAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanIEatAppDelegate_iPad.m; path = iPad/CanIEatAppDelegate_iPad.m; sourceTree = "<group>"; };
+		7D04E02113BC310D00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		7D04E02813BC310D00040642 /* CanIEatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIEatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D04E03013BC310D00040642 /* CanIEatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanIEatTests-Info.plist"; sourceTree = "<group>"; };
+		7D04E03213BC310D00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D04E03413BC310D00040642 /* CanIEatTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanIEatTests-Prefix.pch"; sourceTree = "<group>"; };
+		7D04E03513BC310D00040642 /* CanIEatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanIEatTests.h; sourceTree = "<group>"; };
+		7D04E03713BC310D00040642 /* CanIEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanIEatTests.m; sourceTree = "<group>"; };
+		7D04E04113BC311F00040642 /* CanIEatAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanIEatAppDelegate.h; sourceTree = "<group>"; };
+		7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanIEatAppDelegate.m; sourceTree = "<group>"; };
+		7D04E04413BC313600040642 /* ChangeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMenuViewController.h; sourceTree = "<group>"; };
+		7D04E04513BC313600040642 /* ChangeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMenuViewController.m; sourceTree = "<group>"; };
+		7D04E04613BC313600040642 /* ChangeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeMenuViewController.xib; sourceTree = "<group>"; };
+		7D04E04913BC314A00040642 /* MenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuObject.h; sourceTree = "<group>"; };
+		7D04E04A13BC314A00040642 /* MenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuObject.m; sourceTree = "<group>"; };
+		7D04E04B13BC314A00040642 /* notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = notes.rtf; path = CanIEat/notes.rtf; sourceTree = "<group>"; };
+		7D04E04C13BC314A00040642 /* OrderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderObject.h; sourceTree = "<group>"; };
+		7D04E04D13BC314A00040642 /* OrderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderObject.m; sourceTree = "<group>"; };
+		7D04E04E13BC314A00040642 /* RestaurantObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantObject.h; sourceTree = "<group>"; };
+		7D04E04F13BC314A00040642 /* RestaurantObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantObject.m; sourceTree = "<group>"; };
+		7D04E05013BC314A00040642 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		7D04E05113BC314A00040642 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
+		7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
+		7D04E06013BC329100040642 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
+		7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D61872C13B054A1005E9189 /* Frameworks */ = {
+		7D04DFFC13BC310C00040642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61873413B054A1005E9189 /* UIKit.framework in Frameworks */,
-				7D61873613B054A1005E9189 /* Foundation.framework in Frameworks */,
-				7D61873813B054A1005E9189 /* CoreGraphics.framework in Frameworks */,
+				7D04E00413BC310C00040642 /* UIKit.framework in Frameworks */,
+				7D04E00613BC310C00040642 /* Foundation.framework in Frameworks */,
+				7D04E00813BC310C00040642 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D61875413B054A2005E9189 /* Frameworks */ = {
+		7D04E02413BC310D00040642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61875913B054A2005E9189 /* UIKit.framework in Frameworks */,
-				7D61875A13B054A2005E9189 /* Foundation.framework in Frameworks */,
-				7D61875B13B054A2005E9189 /* CoreGraphics.framework in Frameworks */,
+				7D04E02913BC310D00040642 /* UIKit.framework in Frameworks */,
+				7D04E02A13BC310D00040642 /* Foundation.framework in Frameworks */,
+				7D04E02B13BC310D00040642 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D61872413B054A1005E9189 = {
+		7D04DFF413BC310C00040642 = {
 			isa = PBXGroup;
 			children = (
-				7D61879013B056B1005E9189 /* MainWindow */,
-				7D61873913B054A1005E9189 /* CanIEat */,
-				7D61875E13B054A2005E9189 /* CanIEatTests */,
-				7D61873213B054A1005E9189 /* Frameworks */,
-				7D61873013B054A1005E9189 /* Products */,
-				7D61879713B062AE005E9189 /* notes.rtf */,
+				7D04E06E13BC33D000040642 /* View Controllers */,
+				7D04E00913BC310C00040642 /* Classes */,
+				7D04E02E13BC310D00040642 /* CanIEatTests */,
+				7D04E00213BC310C00040642 /* Frameworks */,
+				7D04E00013BC310C00040642 /* Products */,
+				7D04E04B13BC314A00040642 /* notes.rtf */,
 			);
 			sourceTree = "<group>";
 		};
-		7D61873013B054A1005E9189 /* Products */ = {
+		7D04E00013BC310C00040642 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D61872F13B054A1005E9189 /* CanIEat.app */,
-				7D61875813B054A2005E9189 /* CanIEatTests.octest */,
+				7D04DFFF13BC310C00040642 /* CanIEat.app */,
+				7D04E02813BC310D00040642 /* CanIEatTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D61873213B054A1005E9189 /* Frameworks */ = {
+		7D04E00213BC310C00040642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D61873313B054A1005E9189 /* UIKit.framework */,
-				7D61873513B054A1005E9189 /* Foundation.framework */,
-				7D61873713B054A1005E9189 /* CoreGraphics.framework */,
+				7D04E00313BC310C00040642 /* UIKit.framework */,
+				7D04E00513BC310C00040642 /* Foundation.framework */,
+				7D04E00713BC310C00040642 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D61873913B054A1005E9189 /* CanIEat */ = {
+		7D04E00913BC310C00040642 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7D61879113B05B3A005E9189 /* RestaurantObject.h */,
-				7D61879213B05B3A005E9189 /* RestaurantObject.m */,
-				7D61877B13B054D9005E9189 /* MenuObject.h */,
-				7D61877C13B054D9005E9189 /* MenuObject.m */,
-				7D61877D13B054D9005E9189 /* OrderObject.h */,
-				7D61877E13B054D9005E9189 /* OrderObject.m */,
-				7D61879413B05F71005E9189 /* UserObject.h */,
-				7D61879513B05F71005E9189 /* UserObject.m */,
-				7D61874213B054A1005E9189 /* CanIEatAppDelegate.h */,
-				7D61874313B054A1005E9189 /* CanIEatAppDelegate.m */,
-<<<<<<< HEAD
-				7DEB46E313B65710007886FE /* viewControllers */,
-=======
->>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
-				7D61874513B054A1005E9189 /* iPhone */,
-				7D61874C13B054A1005E9189 /* iPad */,
-				7D61873A13B054A1005E9189 /* Supporting Files */,
+				7D04E04113BC311F00040642 /* CanIEatAppDelegate.h */,
+				7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */,
+				7D04E04913BC314A00040642 /* MenuObject.h */,
+				7D04E04A13BC314A00040642 /* MenuObject.m */,
+				7D04E04C13BC314A00040642 /* OrderObject.h */,
+				7D04E04D13BC314A00040642 /* OrderObject.m */,
+				7D04E04E13BC314A00040642 /* RestaurantObject.h */,
+				7D04E04F13BC314A00040642 /* RestaurantObject.m */,
+				7D04E05013BC314A00040642 /* UserObject.h */,
+				7D04E05113BC314A00040642 /* UserObject.m */,
+				7D04E01513BC310C00040642 /* iPhone */,
+				7D04E01C13BC310C00040642 /* iPad */,
+				7D04E00A13BC310C00040642 /* Supporting Files */,
 			);
+			name = Classes;
 			path = CanIEat;
 			sourceTree = "<group>";
 		};
-		7D61873A13B054A1005E9189 /* Supporting Files */ = {
+		7D04E00A13BC310C00040642 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D61873B13B054A1005E9189 /* CanIEat-Info.plist */,
-				7D61873C13B054A1005E9189 /* InfoPlist.strings */,
-				7D61873F13B054A1005E9189 /* CanIEat-Prefix.pch */,
-				7D61874013B054A1005E9189 /* main.m */,
+				7D04E00B13BC310C00040642 /* CanIEat-Info.plist */,
+				7D04E00C13BC310C00040642 /* InfoPlist.strings */,
+				7D04E00F13BC310C00040642 /* CanIEat-Prefix.pch */,
+				7D04E01013BC310C00040642 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D61874513B054A1005E9189 /* iPhone */ = {
+		7D04E01513BC310C00040642 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				7D61874613B054A1005E9189 /* CanIEatAppDelegate_iPhone.h */,
-				7D61874713B054A1005E9189 /* CanIEatAppDelegate_iPhone.m */,
-				7D61874913B054A1005E9189 /* MainWindow_iPhone.xib */,
+				7D04E01613BC310C00040642 /* CanIEatAppDelegate_iPhone.h */,
+				7D04E01713BC310C00040642 /* CanIEatAppDelegate_iPhone.m */,
+				7D04E01913BC310C00040642 /* MainWindow_iPhone.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
 		};
-		7D61874C13B054A1005E9189 /* iPad */ = {
+		7D04E01C13BC310C00040642 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				7D61874D13B054A1005E9189 /* CanIEatAppDelegate_iPad.h */,
-				7D61874E13B054A1005E9189 /* CanIEatAppDelegate_iPad.m */,
-				7D61875013B054A1005E9189 /* MainWindow_iPad.xib */,
+				7D04E01D13BC310D00040642 /* CanIEatAppDelegate_iPad.h */,
+				7D04E01E13BC310D00040642 /* CanIEatAppDelegate_iPad.m */,
+				7D04E02013BC310D00040642 /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
 		};
-		7D61875E13B054A2005E9189 /* CanIEatTests */ = {
+		7D04E02E13BC310D00040642 /* CanIEatTests */ = {
 			isa = PBXGroup;
 			children = (
-				7D61876513B054A2005E9189 /* CanIEatTests.h */,
-				7D61876713B054A2005E9189 /* CanIEatTests.m */,
-				7D61875F13B054A2005E9189 /* Supporting Files */,
+				7D04E03513BC310D00040642 /* CanIEatTests.h */,
+				7D04E03713BC310D00040642 /* CanIEatTests.m */,
+				7D04E02F13BC310D00040642 /* Supporting Files */,
 			);
 			path = CanIEatTests;
 			sourceTree = "<group>";
 		};
-		7D61875F13B054A2005E9189 /* Supporting Files */ = {
+		7D04E02F13BC310D00040642 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D61876013B054A2005E9189 /* CanIEatTests-Info.plist */,
-				7D61876113B054A2005E9189 /* InfoPlist.strings */,
-				7D61876413B054A2005E9189 /* CanIEatTests-Prefix.pch */,
+				7D04E03013BC310D00040642 /* CanIEatTests-Info.plist */,
+				7D04E03113BC310D00040642 /* InfoPlist.strings */,
+				7D04E03413BC310D00040642 /* CanIEatTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D61879013B056B1005E9189 /* MainWindow */ = {
+		7D04E06E13BC33D000040642 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7D61878A13B05699005E9189 /* MainWindow.h */,
-				7D61878B13B05699005E9189 /* MainWindow.m */,
-				7D61878C13B05699005E9189 /* MainWindow.xib */,
+				7D04E04413BC313600040642 /* ChangeMenuViewController.h */,
+				7D04E04513BC313600040642 /* ChangeMenuViewController.m */,
+				7D04E04613BC313600040642 /* ChangeMenuViewController.xib */,
+				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
+				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
+				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
 			);
-			name = MainWindow;
-			sourceTree = "<group>";
-		};
-		7DEB46E313B65710007886FE /* viewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7DEB46DD13B65700007886FE /* ChangeMenuViewController.h */,
-				7DEB46DE13B65700007886FE /* ChangeMenuViewController.m */,
-				7DEB46DF13B65700007886FE /* ChangeMenuViewController.xib */,
-				7D5417B113B44E1F0007E011 /* WelcomeScreenViewController.h */,
-				7D5417B213B44E1F0007E011 /* WelcomeScreenViewController.m */,
-				7D5417B313B44E1F0007E011 /* WelcomeScreenViewController.xib */,
-			);
-			name = viewControllers;
+			name = "View Controllers";
+			path = CanIEat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D61872E13B054A1005E9189 /* CanIEat */ = {
+		7D04DFFE13BC310C00040642 /* CanIEat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D61876B13B054A2005E9189 /* Build configuration list for PBXNativeTarget "CanIEat" */;
+			buildConfigurationList = 7D04E03B13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEat" */;
 			buildPhases = (
-				7D61872B13B054A1005E9189 /* Sources */,
-				7D61872C13B054A1005E9189 /* Frameworks */,
-				7D61872D13B054A1005E9189 /* Resources */,
+				7D04DFFB13BC310C00040642 /* Sources */,
+				7D04DFFC13BC310C00040642 /* Frameworks */,
+				7D04DFFD13BC310C00040642 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,82 +242,78 @@
 			);
 			name = CanIEat;
 			productName = CanIEat;
-			productReference = 7D61872F13B054A1005E9189 /* CanIEat.app */;
+			productReference = 7D04DFFF13BC310C00040642 /* CanIEat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7D61875713B054A2005E9189 /* CanIEatTests */ = {
+		7D04E02713BC310D00040642 /* CanIEatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D61876E13B054A2005E9189 /* Build configuration list for PBXNativeTarget "CanIEatTests" */;
+			buildConfigurationList = 7D04E03E13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEatTests" */;
 			buildPhases = (
-				7D61875313B054A2005E9189 /* Sources */,
-				7D61875413B054A2005E9189 /* Frameworks */,
-				7D61875513B054A2005E9189 /* Resources */,
-				7D61875613B054A2005E9189 /* ShellScript */,
+				7D04E02313BC310D00040642 /* Sources */,
+				7D04E02413BC310D00040642 /* Frameworks */,
+				7D04E02513BC310D00040642 /* Resources */,
+				7D04E02613BC310D00040642 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D61875D13B054A2005E9189 /* PBXTargetDependency */,
+				7D04E02D13BC310D00040642 /* PBXTargetDependency */,
 			);
 			name = CanIEatTests;
 			productName = CanIEatTests;
-			productReference = 7D61875813B054A2005E9189 /* CanIEatTests.octest */;
+			productReference = 7D04E02813BC310D00040642 /* CanIEatTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D61872613B054A1005E9189 /* Project object */ = {
+		7D04DFF613BC310C00040642 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 7D61872913B054A1005E9189 /* Build configuration list for PBXProject "CanIEat" */;
+			buildConfigurationList = 7D04DFF913BC310C00040642 /* Build configuration list for PBXProject "CanIEat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7D61872413B054A1005E9189;
-			productRefGroup = 7D61873013B054A1005E9189 /* Products */;
+			mainGroup = 7D04DFF413BC310C00040642;
+			productRefGroup = 7D04E00013BC310C00040642 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D61872E13B054A1005E9189 /* CanIEat */,
-				7D61875713B054A2005E9189 /* CanIEatTests */,
+				7D04DFFE13BC310C00040642 /* CanIEat */,
+				7D04E02713BC310D00040642 /* CanIEatTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D61872D13B054A1005E9189 /* Resources */ = {
+		7D04DFFD13BC310C00040642 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61873E13B054A1005E9189 /* InfoPlist.strings in Resources */,
-				7D61874B13B054A1005E9189 /* MainWindow_iPhone.xib in Resources */,
-				7D61875213B054A2005E9189 /* MainWindow_iPad.xib in Resources */,
-				7D61878E13B05699005E9189 /* MainWindow.xib in Resources */,
-				7D61879813B062AF005E9189 /* notes.rtf in Resources */,
-<<<<<<< HEAD
-				7D5417B513B44E1F0007E011 /* WelcomeScreenViewController.xib in Resources */,
-				7DEB46E113B65700007886FE /* ChangeMenuViewController.xib in Resources */,
-=======
->>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
+				7D04E00E13BC310C00040642 /* InfoPlist.strings in Resources */,
+				7D04E01B13BC310C00040642 /* MainWindow_iPhone.xib in Resources */,
+				7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */,
+				7D04E04813BC313600040642 /* ChangeMenuViewController.xib in Resources */,
+				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
+				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D61875513B054A2005E9189 /* Resources */ = {
+		7D04E02513BC310D00040642 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61876313B054A2005E9189 /* InfoPlist.strings in Resources */,
-				7D61876613B054A2005E9189 /* CanIEatTests.h in Resources */,
+				7D04E03313BC310D00040642 /* InfoPlist.strings in Resources */,
+				7D04E03613BC310D00040642 /* CanIEatTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7D61875613B054A2005E9189 /* ShellScript */ = {
+		7D04E02613BC310D00040642 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,74 +329,70 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D61872B13B054A1005E9189 /* Sources */ = {
+		7D04DFFB13BC310C00040642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61874113B054A1005E9189 /* main.m in Sources */,
-				7D61874413B054A1005E9189 /* CanIEatAppDelegate.m in Sources */,
-				7D61874813B054A1005E9189 /* CanIEatAppDelegate_iPhone.m in Sources */,
-				7D61874F13B054A1005E9189 /* CanIEatAppDelegate_iPad.m in Sources */,
-				7D61878013B054D9005E9189 /* MenuObject.m in Sources */,
-				7D61878113B054D9005E9189 /* OrderObject.m in Sources */,
-				7D61878D13B05699005E9189 /* MainWindow.m in Sources */,
-				7D61879313B05B3A005E9189 /* RestaurantObject.m in Sources */,
-				7D61879613B05F71005E9189 /* UserObject.m in Sources */,
-<<<<<<< HEAD
-				7D5417B413B44E1F0007E011 /* WelcomeScreenViewController.m in Sources */,
-				7DEB46E013B65700007886FE /* ChangeMenuViewController.m in Sources */,
-=======
->>>>>>> 42af3683746e29ac963150a9b7c154ec89145def
+				7D04E01113BC310C00040642 /* main.m in Sources */,
+				7D04E01813BC310C00040642 /* CanIEatAppDelegate_iPhone.m in Sources */,
+				7D04E01F13BC310D00040642 /* CanIEatAppDelegate_iPad.m in Sources */,
+				7D04E04313BC311F00040642 /* CanIEatAppDelegate.m in Sources */,
+				7D04E04713BC313600040642 /* ChangeMenuViewController.m in Sources */,
+				7D04E05213BC314A00040642 /* MenuObject.m in Sources */,
+				7D04E05413BC314A00040642 /* OrderObject.m in Sources */,
+				7D04E05513BC314A00040642 /* RestaurantObject.m in Sources */,
+				7D04E05613BC314A00040642 /* UserObject.m in Sources */,
+				7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D61875313B054A2005E9189 /* Sources */ = {
+		7D04E02313BC310D00040642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D61876813B054A2005E9189 /* CanIEatTests.m in Sources */,
+				7D04E03813BC310D00040642 /* CanIEatTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D61875D13B054A2005E9189 /* PBXTargetDependency */ = {
+		7D04E02D13BC310D00040642 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D61872E13B054A1005E9189 /* CanIEat */;
-			targetProxy = 7D61875C13B054A2005E9189 /* PBXContainerItemProxy */;
+			target = 7D04DFFE13BC310C00040642 /* CanIEat */;
+			targetProxy = 7D04E02C13BC310D00040642 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7D61873C13B054A1005E9189 /* InfoPlist.strings */ = {
+		7D04E00C13BC310C00040642 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D61873D13B054A1005E9189 /* en */,
+				7D04E00D13BC310C00040642 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7D61874913B054A1005E9189 /* MainWindow_iPhone.xib */ = {
+		7D04E01913BC310C00040642 /* MainWindow_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D61874A13B054A1005E9189 /* en */,
+				7D04E01A13BC310C00040642 /* en */,
 			);
 			name = MainWindow_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		7D61875013B054A1005E9189 /* MainWindow_iPad.xib */ = {
+		7D04E02013BC310D00040642 /* MainWindow_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D61875113B054A2005E9189 /* en */,
+				7D04E02113BC310D00040642 /* en */,
 			);
 			name = MainWindow_iPad.xib;
 			sourceTree = "<group>";
 		};
-		7D61876113B054A2005E9189 /* InfoPlist.strings */ = {
+		7D04E03113BC310D00040642 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D61876213B054A2005E9189 /* en */,
+				7D04E03213BC310D00040642 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -420,7 +400,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7D61876913B054A2005E9189 /* Debug */ = {
+		7D04E03913BC310D00040642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -438,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		7D61876A13B054A2005E9189 /* Release */ = {
+		7D04E03A13BC310D00040642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -454,7 +434,7 @@
 			};
 			name = Release;
 		};
-		7D61876C13B054A2005E9189 /* Debug */ = {
+		7D04E03C13BC310D00040642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,7 +448,7 @@
 			};
 			name = Debug;
 		};
-		7D61876D13B054A2005E9189 /* Release */ = {
+		7D04E03D13BC310D00040642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -482,7 +462,7 @@
 			};
 			name = Release;
 		};
-		7D61876F13B054A2005E9189 /* Debug */ = {
+		7D04E03F13BC310D00040642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -504,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		7D61877013B054A2005E9189 /* Release */ = {
+		7D04E04013BC310D00040642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,34 +509,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D61872913B054A1005E9189 /* Build configuration list for PBXProject "CanIEat" */ = {
+		7D04DFF913BC310C00040642 /* Build configuration list for PBXProject "CanIEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D61876913B054A2005E9189 /* Debug */,
-				7D61876A13B054A2005E9189 /* Release */,
+				7D04E03913BC310D00040642 /* Debug */,
+				7D04E03A13BC310D00040642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D61876B13B054A2005E9189 /* Build configuration list for PBXNativeTarget "CanIEat" */ = {
+		7D04E03B13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D61876C13B054A2005E9189 /* Debug */,
-				7D61876D13B054A2005E9189 /* Release */,
+				7D04E03C13BC310D00040642 /* Debug */,
+				7D04E03D13BC310D00040642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D61876E13B054A2005E9189 /* Build configuration list for PBXNativeTarget "CanIEatTests" */ = {
+		7D04E03E13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D61876F13B054A2005E9189 /* Debug */,
-				7D61877013B054A2005E9189 /* Release */,
+				7D04E03F13BC310D00040642 /* Debug */,
+				7D04E04013BC310D00040642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D61872613B054A1005E9189 /* Project object */;
+	rootObject = 7D04DFF613BC310C00040642 /* Project object */;
 }
