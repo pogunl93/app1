@@ -35,7 +35,8 @@
 		7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07013BC37D600040642 /* EstablishmentObject.m */; };
 		7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */; };
 		7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */; };
-		7D9F348C13BCF1CB002D6B61 /* futureFeatures.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */; };
+		7D9F348C13BCF1CB002D6B61 /* future_features in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348B13BCF1CB002D6B61 /* future_features */; };
+		7D9F348E13BCF400002D6B61 /* gen_specs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348D13BCF400002D6B61 /* gen_specs.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +92,8 @@
 		7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsToOrderByCategoryViewController.h; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
 		7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsToOrderByCategoryViewController.m; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
 		7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemsToOrderByCategoryViewController.xib; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
-		7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = futureFeatures.rtf; path = ../../../programming/ios/app1/futureFeatures.rtf; sourceTree = "<group>"; };
+		7D9F348B13BCF1CB002D6B61 /* future_features */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = future_features; path = ../../../programming/ios/app1/future_features; sourceTree = "<group>"; };
+		7D9F348D13BCF400002D6B61 /* gen_specs.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = gen_specs.rtf; path = ../../../programming/ios/app1/gen_specs.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +131,8 @@
 				7D04E00213BC310C00040642 /* Frameworks */,
 				7D04E00013BC310C00040642 /* Products */,
 				7D04E04B13BC314A00040642 /* notes.rtf */,
-				7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */,
+				7D9F348B13BCF1CB002D6B61 /* future_features */,
+				7D9F348D13BCF400002D6B61 /* gen_specs.rtf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -333,7 +336,8 @@
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
 				7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */,
-				7D9F348C13BCF1CB002D6B61 /* futureFeatures.rtf in Resources */,
+				7D9F348C13BCF1CB002D6B61 /* future_features in Resources */,
+				7D9F348E13BCF400002D6B61 /* gen_specs.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
