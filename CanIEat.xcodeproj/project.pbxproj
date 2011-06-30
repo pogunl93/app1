@@ -35,6 +35,7 @@
 		7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07013BC37D600040642 /* EstablishmentObject.m */; };
 		7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */; };
 		7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */; };
+		7D9F348C13BCF1CB002D6B61 /* futureFeatures.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsToOrderByCategoryViewController.h; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
 		7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsToOrderByCategoryViewController.m; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
 		7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemsToOrderByCategoryViewController.xib; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
+		7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = futureFeatures.rtf; path = ../../../programming/ios/app1/futureFeatures.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +121,15 @@
 		7D04DFF413BC310C00040642 = {
 			isa = PBXGroup;
 			children = (
-				7D04E06E13BC33D000040642 /* View Controllers */,
-				7D04E00913BC310C00040642 /* Classes */,
+				7D04E06E13BC33D000040642 /* Controllers */,
+				7D9F348A13BCF160002D6B61 /* Views */,
+				7D04E00913BC310C00040642 /* Models */,
+				7D9F348813BCF126002D6B61 /* AppDelegate */,
 				7D04E02E13BC310D00040642 /* CanIEatTests */,
 				7D04E00213BC310C00040642 /* Frameworks */,
 				7D04E00013BC310C00040642 /* Products */,
 				7D04E04B13BC314A00040642 /* notes.rtf */,
+				7D9F348B13BCF1CB002D6B61 /* futureFeatures.rtf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,11 +152,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D04E00913BC310C00040642 /* Classes */ = {
+		7D04E00913BC310C00040642 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7D04E04113BC311F00040642 /* CanIEatAppDelegate.h */,
-				7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */,
 				7D04E06F13BC37D600040642 /* EstablishmentObject.h */,
 				7D04E07013BC37D600040642 /* EstablishmentObject.m */,
 				7D04E04E13BC314A00040642 /* BranchObject.h */,
@@ -166,7 +169,7 @@
 				7D04E01C13BC310C00040642 /* iPad */,
 				7D04E00A13BC310C00040642 /* Supporting Files */,
 			);
-			name = Classes;
+			name = Models;
 			path = CanIEat;
 			sourceTree = "<group>";
 		};
@@ -221,20 +224,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D04E06E13BC33D000040642 /* View Controllers */ = {
+		7D04E06E13BC33D000040642 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				7D04E04413BC313600040642 /* ChangeMenuViewController.h */,
 				7D04E04513BC313600040642 /* ChangeMenuViewController.m */,
-				7D04E04613BC313600040642 /* ChangeMenuViewController.xib */,
 				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
 				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
-				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
 				7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */,
 				7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */,
+			);
+			name = Controllers;
+			path = CanIEat;
+			sourceTree = "<group>";
+		};
+		7D9F348813BCF126002D6B61 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D04E04113BC311F00040642 /* CanIEatAppDelegate.h */,
+				7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = CanIEat;
+			sourceTree = "<group>";
+		};
+		7D9F348A13BCF160002D6B61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D04E04613BC313600040642 /* ChangeMenuViewController.xib */,
+				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
 				7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */,
 			);
-			name = "View Controllers";
+			name = Views;
 			path = CanIEat;
 			sourceTree = "<group>";
 		};
@@ -312,6 +333,7 @@
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
 				7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */,
+				7D9F348C13BCF1CB002D6B61 /* futureFeatures.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
