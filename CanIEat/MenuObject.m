@@ -2,36 +2,16 @@
 
 @implementation MenuObject
 
-@synthesize itemName, price, sideChoice, possibleSideChoices, numberOfOrdersForThisItem, description, keywords;
-
-- (void)enterPrice:(int)x
-{   
-    self.price = x;
-}
-
-- (void)enterItemName:(NSString *)aString
-{
-    self.itemName = aString;
-}
-
-- (void)enterDescription:(NSString *)aString
-{
-    self.description = aString;
-}
+@synthesize name, price, sideChoices, description, keywords;
 
 - (void)enterSideChoice:(NSString *)choice
 {
-    self.sideChoice = choice;
+    [self.sideChoices addObject:choice];
 }
 
-- (void)enterPossibleSideChoice:(NSString *)choice
+- (void)enterSideChoices:(NSArray *)arr
 {
-    [self.possibleSideChoices addObject:choice];
-}
-
-- (void)enterPossibleSideChoices:(NSArray *)arr
-{
-        [self.possibleSideChoices addObjectsFromArray:arr];
+        [self.sideChoices addObjectsFromArray:arr];
 }
 
 - (void)enterKeyword:(NSString *)aString
@@ -43,12 +23,13 @@
 {
     [self.keywords addObjectsFromArray:arr];
 }
+
 - (void)dealloc
 {
-    [itemName release];
-    [sideChoice release];
-    [possibleSideChoices release];
+    [name release];
+    [sideChoices release];
     [description release];
+    [keywords release];
     [super dealloc];
 }
 

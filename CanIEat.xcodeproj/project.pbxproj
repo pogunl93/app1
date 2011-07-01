@@ -23,8 +23,6 @@
 		7D04E03613BC310D00040642 /* CanIEatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E03513BC310D00040642 /* CanIEatTests.h */; };
 		7D04E03813BC310D00040642 /* CanIEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E03713BC310D00040642 /* CanIEatTests.m */; };
 		7D04E04313BC311F00040642 /* CanIEatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */; };
-		7D04E04713BC313600040642 /* ChangeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04513BC313600040642 /* ChangeMenuViewController.m */; };
-		7D04E04813BC313600040642 /* ChangeMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E04613BC313600040642 /* ChangeMenuViewController.xib */; };
 		7D04E05213BC314A00040642 /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04A13BC314A00040642 /* MenuObject.m */; };
 		7D04E05313BC314A00040642 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E04B13BC314A00040642 /* notes.rtf */; };
 		7D04E05413BC314A00040642 /* OrderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04D13BC314A00040642 /* OrderObject.m */; };
@@ -35,8 +33,10 @@
 		7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07013BC37D600040642 /* EstablishmentObject.m */; };
 		7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */; };
 		7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */; };
-		7D9F348C13BCF1CB002D6B61 /* future_features in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348B13BCF1CB002D6B61 /* future_features */; };
-		7D9F348E13BCF400002D6B61 /* gen_specs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F348D13BCF400002D6B61 /* gen_specs.rtf */; };
+		7D93D51F13BD831500D5E97C /* general_specs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D93D51E13BD831500D5E97C /* general_specs.rtf */; };
+		7D956D0913BD082E0076847D /* future_feats.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D956D0813BD082E0076847D /* future_feats.rtf */; };
+		7D956D2013BD15700076847D /* AddEditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */; };
+		7D956D2113BD15700076847D /* AddEditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,9 +72,6 @@
 		7D04E03713BC310D00040642 /* CanIEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanIEatTests.m; sourceTree = "<group>"; };
 		7D04E04113BC311F00040642 /* CanIEatAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanIEatAppDelegate.h; sourceTree = "<group>"; };
 		7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanIEatAppDelegate.m; sourceTree = "<group>"; };
-		7D04E04413BC313600040642 /* ChangeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMenuViewController.h; sourceTree = "<group>"; };
-		7D04E04513BC313600040642 /* ChangeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMenuViewController.m; sourceTree = "<group>"; };
-		7D04E04613BC313600040642 /* ChangeMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeMenuViewController.xib; sourceTree = "<group>"; };
 		7D04E04913BC314A00040642 /* MenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuObject.h; sourceTree = "<group>"; };
 		7D04E04A13BC314A00040642 /* MenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuObject.m; sourceTree = "<group>"; };
 		7D04E04B13BC314A00040642 /* notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = notes.rtf; path = CanIEat/notes.rtf; sourceTree = "<group>"; };
@@ -92,8 +89,11 @@
 		7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsToOrderByCategoryViewController.h; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
 		7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsToOrderByCategoryViewController.m; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
 		7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemsToOrderByCategoryViewController.xib; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
-		7D9F348B13BCF1CB002D6B61 /* future_features */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = future_features; path = ../../../programming/ios/app1/future_features; sourceTree = "<group>"; };
-		7D9F348D13BCF400002D6B61 /* gen_specs.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = gen_specs.rtf; path = ../../../programming/ios/app1/gen_specs.rtf; sourceTree = "<group>"; };
+		7D93D51E13BD831500D5E97C /* general_specs.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = general_specs.rtf; path = ../../../programming/ios/app1/general_specs.rtf; sourceTree = "<group>"; };
+		7D956D0813BD082E0076847D /* future_feats.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = future_feats.rtf; path = ../../../programming/ios/app1/future_feats.rtf; sourceTree = "<group>"; };
+		7D956D1D13BD15700076847D /* AddEditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditMenuItemViewController.h; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.h; sourceTree = "<group>"; };
+		7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEditMenuItemViewController.m; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.m; sourceTree = "<group>"; };
+		7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddEditMenuItemViewController.xib; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 				7D04E00213BC310C00040642 /* Frameworks */,
 				7D04E00013BC310C00040642 /* Products */,
 				7D04E04B13BC314A00040642 /* notes.rtf */,
-				7D9F348B13BCF1CB002D6B61 /* future_features */,
-				7D9F348D13BCF400002D6B61 /* gen_specs.rtf */,
+				7D956D0813BD082E0076847D /* future_feats.rtf */,
+				7D93D51E13BD831500D5E97C /* general_specs.rtf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,8 +230,8 @@
 		7D04E06E13BC33D000040642 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7D04E04413BC313600040642 /* ChangeMenuViewController.h */,
-				7D04E04513BC313600040642 /* ChangeMenuViewController.m */,
+				7D956D1D13BD15700076847D /* AddEditMenuItemViewController.h */,
+				7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */,
 				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
 				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
 				7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */,
@@ -254,7 +254,7 @@
 		7D9F348A13BCF160002D6B61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7D04E04613BC313600040642 /* ChangeMenuViewController.xib */,
+				7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */,
 				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
 				7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */,
 			);
@@ -332,12 +332,12 @@
 				7D04E00E13BC310C00040642 /* InfoPlist.strings in Resources */,
 				7D04E01B13BC310C00040642 /* MainWindow_iPhone.xib in Resources */,
 				7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */,
-				7D04E04813BC313600040642 /* ChangeMenuViewController.xib in Resources */,
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
 				7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */,
-				7D9F348C13BCF1CB002D6B61 /* future_features in Resources */,
-				7D9F348E13BCF400002D6B61 /* gen_specs.rtf in Resources */,
+				7D956D0913BD082E0076847D /* future_feats.rtf in Resources */,
+				7D956D2113BD15700076847D /* AddEditMenuItemViewController.xib in Resources */,
+				7D93D51F13BD831500D5E97C /* general_specs.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +377,6 @@
 				7D04E01813BC310C00040642 /* CanIEatAppDelegate_iPhone.m in Sources */,
 				7D04E01F13BC310D00040642 /* CanIEatAppDelegate_iPad.m in Sources */,
 				7D04E04313BC311F00040642 /* CanIEatAppDelegate.m in Sources */,
-				7D04E04713BC313600040642 /* ChangeMenuViewController.m in Sources */,
 				7D04E05213BC314A00040642 /* MenuObject.m in Sources */,
 				7D04E05413BC314A00040642 /* OrderObject.m in Sources */,
 				7D04E05513BC314A00040642 /* BranchObject.m in Sources */,
@@ -385,6 +384,7 @@
 				7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */,
 				7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */,
 				7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */,
+				7D956D2013BD15700076847D /* AddEditMenuItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 #import "CanIEatAppDelegate.h"
-#import "ChangeMenuViewController.h"
+//#import "AddEditMenuItemViewController.h"
 
 @implementation CanIEatAppDelegate
 
@@ -9,7 +9,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UINavigationController *navController = [[UINavigationController alloc] init];
-    ChangeMenuViewController *changeMenuVC = [[ChangeMenuViewController alloc] init];
+    AddEditMenuItemViewController *changeMenuVC = [[AddEditMenuItemViewController alloc] init];
     changeMenuVC.title = @"Add an Item";
     [navController pushViewController:changeMenuVC animated:NO];
     [changeMenuVC release];
