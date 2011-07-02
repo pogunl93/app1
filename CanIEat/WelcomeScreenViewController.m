@@ -20,6 +20,11 @@
     return self;
 }
 
+-(IBAction)menuPressed:(UIButton *)butPressed
+{
+    
+}
+
 - (void)dealloc
 {
     [super dealloc];

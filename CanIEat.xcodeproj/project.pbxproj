@@ -30,13 +30,36 @@
 		7D04E05613BC314A00040642 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E05113BC314A00040642 /* UserObject.m */; };
 		7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E06013BC329100040642 /* WelcomeScreenViewController.m */; };
 		7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */; };
-		7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07013BC37D600040642 /* EstablishmentObject.m */; };
-		7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */; };
-		7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */; };
-		7D93D51F13BD831500D5E97C /* general_specs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D93D51E13BD831500D5E97C /* general_specs.rtf */; };
-		7D956D0913BD082E0076847D /* future_feats.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D956D0813BD082E0076847D /* future_feats.rtf */; };
-		7D956D2013BD15700076847D /* AddEditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */; };
-		7D956D2113BD15700076847D /* AddEditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */; };
+		9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */; };
+		9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */; };
+		9E8E6C2E13BE642C00879142 /* AddEditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */; };
+		9E8E6C2F13BE642C00879142 /* AddEditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */; };
+		9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3013BE6B8F00879142 /* sodaIcon.png */; };
+		9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3213BE6BC200879142 /* hamburger-icon.png */; };
+		9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3513BE6C1400879142 /* salad.jpg */; };
+		9E8E6C3913BE6C1400879142 /* hot-dog-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3613BE6C1400879142 /* hot-dog-icon.png */; };
+		9E8E6C4A13BE6E4100879142 /* Coffee-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4313BE6E4100879142 /* Coffee-icon.png */; };
+		9E8E6C4B13BE6E4100879142 /* coffeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4413BE6E4100879142 /* coffeIcon.png */; };
+		9E8E6C4C13BE6E4100879142 /* Beer-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4513BE6E4100879142 /* Beer-icon.png */; };
+		9E8E6C4D13BE6E4100879142 /* soft-drink-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4613BE6E4100879142 /* soft-drink-icon.png */; };
+		9E8E6C4E13BE6E4100879142 /* iceCreamIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4713BE6E4100879142 /* iceCreamIcon.png */; };
+		9E8E6C4F13BE6E4100879142 /* pizza-slice-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4813BE6E4100879142 /* pizza-slice-icon.png */; };
+		9E8E6C5013BE6E4100879142 /* friesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C4913BE6E4100879142 /* friesIcon.png */; };
+		9E8E6C5313BE71BF00879142 /* starIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C5213BE71BF00879142 /* starIcon.png */; };
+		9E8E6C5713BE769700879142 /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C5613BE769700879142 /* leaf.png */; };
+		9E8E6C5A13BE792A00879142 /* hotSOup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C5813BE792900879142 /* hotSOup.png */; };
+		9E8E6C5D13BE79E200879142 /* liquor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C5C13BE79E200879142 /* liquor.png */; };
+		9E8E6C5F13BE7B8900879142 /* mainDish.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C5E13BE7B8900879142 /* mainDish.png */; };
+		9E8E6C6A13BE7CFE00879142 /* EstablishmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C6913BE7CFE00879142 /* EstablishmentObject.m */; };
+		9E8E6C6D13BE7DB200879142 /* future_feats.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C6C13BE7DB200879142 /* future_feats.rtf */; };
+		9E8E6C6F13BE7DCB00879142 /* general_specs.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C6E13BE7DCB00879142 /* general_specs.rtf */; };
+		9E8E6C7113BE838D00879142 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7013BE838D00879142 /* cart.png */; };
+		9E8E6C7613BE84F000879142 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7213BE84EF00879142 /* cancel.png */; };
+		9E8E6C7713BE84F000879142 /* cartAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7313BE84EF00879142 /* cartAdd.png */; };
+		9E8E6C7813BE84F000879142 /* cartRemove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7413BE84EF00879142 /* cartRemove.png */; };
+		9E8E6C7913BE84F000879142 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7513BE84F000879142 /* ok.png */; };
+		9E8E6C7F13BE875200879142 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7E13BE875100879142 /* info-icon.png */; };
+		9E8E6C8113BE87AA00879142 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C8013BE87A900879142 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,16 +107,39 @@
 		7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
 		7D04E06013BC329100040642 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
 		7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeScreenViewController.xib; sourceTree = "<group>"; };
-		7D04E06F13BC37D600040642 /* EstablishmentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EstablishmentObject.h; path = ../../../../programming/ios/app1/CanIEat/EstablishmentObject.h; sourceTree = "<group>"; };
-		7D04E07013BC37D600040642 /* EstablishmentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EstablishmentObject.m; path = ../../../../programming/ios/app1/CanIEat/EstablishmentObject.m; sourceTree = "<group>"; };
-		7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsToOrderByCategoryViewController.h; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
-		7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsToOrderByCategoryViewController.m; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
-		7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemsToOrderByCategoryViewController.xib; path = ../../../../programming/ios/app1/CanIEat/ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
-		7D93D51E13BD831500D5E97C /* general_specs.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = general_specs.rtf; path = ../../../programming/ios/app1/general_specs.rtf; sourceTree = "<group>"; };
-		7D956D0813BD082E0076847D /* future_feats.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = future_feats.rtf; path = ../../../programming/ios/app1/future_feats.rtf; sourceTree = "<group>"; };
-		7D956D1D13BD15700076847D /* AddEditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEditMenuItemViewController.h; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.h; sourceTree = "<group>"; };
-		7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddEditMenuItemViewController.m; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.m; sourceTree = "<group>"; };
-		7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddEditMenuItemViewController.xib; path = ../../../../programming/ios/app1/CanIEat/AddEditMenuItemViewController.xib; sourceTree = "<group>"; };
+		9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
+		9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
+		9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
+		9E8E6C2B13BE642C00879142 /* AddEditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditMenuItemViewController.h; sourceTree = "<group>"; };
+		9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditMenuItemViewController.m; sourceTree = "<group>"; };
+		9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditMenuItemViewController.xib; sourceTree = "<group>"; };
+		9E8E6C3013BE6B8F00879142 /* sodaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sodaIcon.png; sourceTree = "<group>"; };
+		9E8E6C3213BE6BC200879142 /* hamburger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-icon.png"; sourceTree = "<group>"; };
+		9E8E6C3513BE6C1400879142 /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
+		9E8E6C3613BE6C1400879142 /* hot-dog-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hot-dog-icon.png"; sourceTree = "<group>"; };
+		9E8E6C4313BE6E4100879142 /* Coffee-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee-icon.png"; sourceTree = "<group>"; };
+		9E8E6C4413BE6E4100879142 /* coffeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeIcon.png; sourceTree = "<group>"; };
+		9E8E6C4513BE6E4100879142 /* Beer-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beer-icon.png"; sourceTree = "<group>"; };
+		9E8E6C4613BE6E4100879142 /* soft-drink-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soft-drink-icon.png"; sourceTree = "<group>"; };
+		9E8E6C4713BE6E4100879142 /* iceCreamIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iceCreamIcon.png; sourceTree = "<group>"; };
+		9E8E6C4813BE6E4100879142 /* pizza-slice-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pizza-slice-icon.png"; sourceTree = "<group>"; };
+		9E8E6C4913BE6E4100879142 /* friesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friesIcon.png; sourceTree = "<group>"; };
+		9E8E6C5213BE71BF00879142 /* starIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starIcon.png; sourceTree = "<group>"; };
+		9E8E6C5613BE769700879142 /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = "<group>"; };
+		9E8E6C5813BE792900879142 /* hotSOup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotSOup.png; sourceTree = "<group>"; };
+		9E8E6C5C13BE79E200879142 /* liquor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liquor.png; sourceTree = "<group>"; };
+		9E8E6C5E13BE7B8900879142 /* mainDish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainDish.png; sourceTree = "<group>"; };
+		9E8E6C6813BE7CFE00879142 /* EstablishmentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstablishmentObject.h; sourceTree = "<group>"; };
+		9E8E6C6913BE7CFE00879142 /* EstablishmentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstablishmentObject.m; sourceTree = "<group>"; };
+		9E8E6C6C13BE7DB200879142 /* future_feats.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = future_feats.rtf; sourceTree = "<group>"; };
+		9E8E6C6E13BE7DCB00879142 /* general_specs.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = general_specs.rtf; sourceTree = "<group>"; };
+		9E8E6C7013BE838D00879142 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		9E8E6C7213BE84EF00879142 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		9E8E6C7313BE84EF00879142 /* cartAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartAdd.png; sourceTree = "<group>"; };
+		9E8E6C7413BE84EF00879142 /* cartRemove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartRemove.png; sourceTree = "<group>"; };
+		9E8E6C7513BE84F000879142 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		9E8E6C7E13BE875100879142 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		9E8E6C8013BE87A900879142 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +169,7 @@
 		7D04DFF413BC310C00040642 = {
 			isa = PBXGroup;
 			children = (
+				9E8E6C7E13BE875100879142 /* info-icon.png */,
 				7D04E06E13BC33D000040642 /* Controllers */,
 				7D9F348A13BCF160002D6B61 /* Views */,
 				7D04E00913BC310C00040642 /* Models */,
@@ -131,8 +178,8 @@
 				7D04E00213BC310C00040642 /* Frameworks */,
 				7D04E00013BC310C00040642 /* Products */,
 				7D04E04B13BC314A00040642 /* notes.rtf */,
-				7D956D0813BD082E0076847D /* future_feats.rtf */,
-				7D93D51E13BD831500D5E97C /* general_specs.rtf */,
+				9E8E6C6E13BE7DCB00879142 /* general_specs.rtf */,
+				9E8E6C6C13BE7DB200879142 /* future_feats.rtf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,10 +205,10 @@
 		7D04E00913BC310C00040642 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7D04E06F13BC37D600040642 /* EstablishmentObject.h */,
-				7D04E07013BC37D600040642 /* EstablishmentObject.m */,
 				7D04E04E13BC314A00040642 /* BranchObject.h */,
 				7D04E04F13BC314A00040642 /* BranchObject.m */,
+				9E8E6C6813BE7CFE00879142 /* EstablishmentObject.h */,
+				9E8E6C6913BE7CFE00879142 /* EstablishmentObject.m */,
 				7D04E04913BC314A00040642 /* MenuObject.h */,
 				7D04E04A13BC314A00040642 /* MenuObject.m */,
 				7D04E04C13BC314A00040642 /* OrderObject.h */,
@@ -230,12 +277,12 @@
 		7D04E06E13BC33D000040642 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7D956D1D13BD15700076847D /* AddEditMenuItemViewController.h */,
-				7D956D1E13BD15700076847D /* AddEditMenuItemViewController.m */,
+				9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */,
+				9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */,
+				9E8E6C2B13BE642C00879142 /* AddEditMenuItemViewController.h */,
+				9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */,
 				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
 				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
-				7D04E07213BC394100040642 /* ItemsToOrderByCategoryViewController.h */,
-				7D04E07313BC394100040642 /* ItemsToOrderByCategoryViewController.m */,
 			);
 			name = Controllers;
 			path = CanIEat;
@@ -254,12 +301,42 @@
 		7D9F348A13BCF160002D6B61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7D956D1F13BD15700076847D /* AddEditMenuItemViewController.xib */,
+				9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */,
+				9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */,
 				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
-				7D04E07413BC394100040642 /* ItemsToOrderByCategoryViewController.xib */,
+				9E8E6C3413BE6BCA00879142 /* images */,
 			);
 			name = Views;
 			path = CanIEat;
+			sourceTree = "<group>";
+		};
+		9E8E6C3413BE6BCA00879142 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E6C7013BE838D00879142 /* cart.png */,
+				9E8E6C3013BE6B8F00879142 /* sodaIcon.png */,
+				9E8E6C5C13BE79E200879142 /* liquor.png */,
+				9E8E6C3513BE6C1400879142 /* salad.jpg */,
+				9E8E6C8013BE87A900879142 /* settings.png */,
+				9E8E6C5E13BE7B8900879142 /* mainDish.png */,
+				9E8E6C7213BE84EF00879142 /* cancel.png */,
+				9E8E6C7313BE84EF00879142 /* cartAdd.png */,
+				9E8E6C7413BE84EF00879142 /* cartRemove.png */,
+				9E8E6C7513BE84F000879142 /* ok.png */,
+				9E8E6C5813BE792900879142 /* hotSOup.png */,
+				9E8E6C5613BE769700879142 /* leaf.png */,
+				9E8E6C4313BE6E4100879142 /* Coffee-icon.png */,
+				9E8E6C5213BE71BF00879142 /* starIcon.png */,
+				9E8E6C4413BE6E4100879142 /* coffeIcon.png */,
+				9E8E6C4513BE6E4100879142 /* Beer-icon.png */,
+				9E8E6C4613BE6E4100879142 /* soft-drink-icon.png */,
+				9E8E6C4713BE6E4100879142 /* iceCreamIcon.png */,
+				9E8E6C4813BE6E4100879142 /* pizza-slice-icon.png */,
+				9E8E6C4913BE6E4100879142 /* friesIcon.png */,
+				9E8E6C3613BE6C1400879142 /* hot-dog-icon.png */,
+				9E8E6C3213BE6BC200879142 /* hamburger-icon.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,10 +411,33 @@
 				7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */,
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
-				7D04E07613BC394200040642 /* ItemsToOrderByCategoryViewController.xib in Resources */,
-				7D956D0913BD082E0076847D /* future_feats.rtf in Resources */,
-				7D956D2113BD15700076847D /* AddEditMenuItemViewController.xib in Resources */,
-				7D93D51F13BD831500D5E97C /* general_specs.rtf in Resources */,
+				9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */,
+				9E8E6C2F13BE642C00879142 /* AddEditMenuItemViewController.xib in Resources */,
+				9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */,
+				9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */,
+				9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */,
+				9E8E6C3913BE6C1400879142 /* hot-dog-icon.png in Resources */,
+				9E8E6C4A13BE6E4100879142 /* Coffee-icon.png in Resources */,
+				9E8E6C4B13BE6E4100879142 /* coffeIcon.png in Resources */,
+				9E8E6C4C13BE6E4100879142 /* Beer-icon.png in Resources */,
+				9E8E6C4D13BE6E4100879142 /* soft-drink-icon.png in Resources */,
+				9E8E6C4E13BE6E4100879142 /* iceCreamIcon.png in Resources */,
+				9E8E6C4F13BE6E4100879142 /* pizza-slice-icon.png in Resources */,
+				9E8E6C5013BE6E4100879142 /* friesIcon.png in Resources */,
+				9E8E6C5313BE71BF00879142 /* starIcon.png in Resources */,
+				9E8E6C5713BE769700879142 /* leaf.png in Resources */,
+				9E8E6C5A13BE792A00879142 /* hotSOup.png in Resources */,
+				9E8E6C5D13BE79E200879142 /* liquor.png in Resources */,
+				9E8E6C5F13BE7B8900879142 /* mainDish.png in Resources */,
+				9E8E6C6D13BE7DB200879142 /* future_feats.rtf in Resources */,
+				9E8E6C6F13BE7DCB00879142 /* general_specs.rtf in Resources */,
+				9E8E6C7113BE838D00879142 /* cart.png in Resources */,
+				9E8E6C7613BE84F000879142 /* cancel.png in Resources */,
+				9E8E6C7713BE84F000879142 /* cartAdd.png in Resources */,
+				9E8E6C7813BE84F000879142 /* cartRemove.png in Resources */,
+				9E8E6C7913BE84F000879142 /* ok.png in Resources */,
+				9E8E6C7F13BE875200879142 /* info-icon.png in Resources */,
+				9E8E6C8113BE87AA00879142 /* settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +482,9 @@
 				7D04E05513BC314A00040642 /* BranchObject.m in Sources */,
 				7D04E05613BC314A00040642 /* UserObject.m in Sources */,
 				7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */,
-				7D04E07113BC37D600040642 /* EstablishmentObject.m in Sources */,
-				7D04E07513BC394200040642 /* ItemsToOrderByCategoryViewController.m in Sources */,
-				7D956D2013BD15700076847D /* AddEditMenuItemViewController.m in Sources */,
+				9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */,
+				9E8E6C2E13BE642C00879142 /* AddEditMenuItemViewController.m in Sources */,
+				9E8E6C6A13BE7CFE00879142 /* EstablishmentObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +585,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CanIEat/CanIEat-Prefix.pch";
 				INFOPLIST_FILE = "CanIEat/CanIEat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -498,6 +599,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CanIEat/CanIEat-Prefix.pch";
 				INFOPLIST_FILE = "CanIEat/CanIEat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

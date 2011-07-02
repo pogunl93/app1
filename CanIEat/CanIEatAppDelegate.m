@@ -1,5 +1,6 @@
 #import "CanIEatAppDelegate.h"
-//#import "AddEditMenuItemViewController.h"
+#import "AddEditMenuItemViewController.h"
+
 
 @implementation CanIEatAppDelegate
 
@@ -9,10 +10,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UINavigationController *navController = [[UINavigationController alloc] init];
-    AddEditMenuItemViewController *changeMenuVC = [[AddEditMenuItemViewController alloc] init];
-    changeMenuVC.title = @"Add an Item";
-    [navController pushViewController:changeMenuVC animated:NO];
-    [changeMenuVC release];
+    WelcomeScreenViewController *homeWindowVC = [[WelcomeScreenViewController alloc] init];
+    homeWindowVC.title = @"CanIEat";
+    [navController pushViewController:homeWindowVC animated:NO];
+    [homeWindowVC release];
     [window addSubview:navController.view];
     [self.window makeKeyAndVisible];
     return YES;
