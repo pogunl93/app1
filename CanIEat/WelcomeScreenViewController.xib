@@ -74,9 +74,17 @@
 						<object class="NSMutableArray" key="IBUIItems">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUITabBarItem" id="413378513">
+								<string key="IBUITitle">account</string>
+								<object class="NSCustomResource" key="IBUIImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">userMale.png</string>
+								</object>
+								<double key="IBUIImageInsets.top">3</double>
+								<double key="IBUIImageInsets.bottom">0.0</double>
+								<double key="IBUIImageInsets.left">2</double>
+								<double key="IBUIImageInsets.right">2</double>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<reference key="IBUITabBar" ref="407414848"/>
-								<int key="IBUISystemItemIdentifier">1</int>
 							</object>
 							<object class="IBUITabBarItem" id="311886406">
 								<string key="IBUITitle">Settings</string>
@@ -84,17 +92,17 @@
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">settings.png</string>
 								</object>
+								<double key="IBUIImageInsets.top">2</double>
+								<double key="IBUIImageInsets.bottom">-2</double>
+								<double key="IBUIImageInsets.left">0.0</double>
+								<double key="IBUIImageInsets.right">0.0</double>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<reference key="IBUITabBar" ref="407414848"/>
 							</object>
 							<object class="IBUITabBarItem" id="446869662">
-								<string key="IBUITitle">Info</string>
-								<object class="NSCustomResource" key="IBUIImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">info-icon.png</string>
-								</object>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<reference key="IBUITabBar" ref="407414848"/>
+								<int key="IBUISystemItemIdentifier">0</int>
 							</object>
 							<object class="IBUITabBarItem" id="790128067">
 								<string key="IBUITitle">Cart</string>
@@ -128,7 +136,7 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">menu</string>
+						<string key="IBUINormalTitle">Menu</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -297,7 +305,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">17</int>
+			<int key="maxID">18</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -336,14 +344,14 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>cart.png</string>
-				<string>info-icon.png</string>
 				<string>settings.png</string>
+				<string>userMale.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{32, 32}</string>
 				<string>{24, 24}</string>
-				<string>{24, 24}</string>
+				<string>{32, 32}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">300</string>

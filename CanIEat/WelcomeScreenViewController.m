@@ -7,6 +7,7 @@
 //
 
 #import "WelcomeScreenViewController.h"
+#import "ItemsToOrderByCategoryViewController.h"
 
 
 @implementation WelcomeScreenViewController
@@ -22,7 +23,10 @@
 
 -(IBAction)menuPressed:(UIButton *)butPressed
 {
-    
+    ItemsToOrderByCategoryViewController *categoriesVC = [[ItemsToOrderByCategoryViewController alloc] init];
+    categoriesVC.title = @"Categories";
+    [self.navigationController pushViewController:categoriesVC animated:YES];
+    [categoriesVC release];
 }
 
 - (void)dealloc

@@ -60,6 +60,8 @@
 		9E8E6C7913BE84F000879142 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7513BE84F000879142 /* ok.png */; };
 		9E8E6C7F13BE875200879142 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C7E13BE875100879142 /* info-icon.png */; };
 		9E8E6C8113BE87AA00879142 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C8013BE87A900879142 /* settings.png */; };
+		9EFF990B13BFCE0B004390A1 /* userMale.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFF990A13BFCE0B004390A1 /* userMale.png */; };
+		9EFF990E13BFCE17004390A1 /* userFemale.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFF990D13BFCE17004390A1 /* userFemale.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +142,8 @@
 		9E8E6C7513BE84F000879142 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
 		9E8E6C7E13BE875100879142 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
 		9E8E6C8013BE87A900879142 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		9EFF990A13BFCE0B004390A1 /* userMale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userMale.png; sourceTree = "<group>"; };
+		9EFF990D13BFCE17004390A1 /* userFemale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userFemale.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +320,8 @@
 				9E8E6C7013BE838D00879142 /* cart.png */,
 				9E8E6C3013BE6B8F00879142 /* sodaIcon.png */,
 				9E8E6C5C13BE79E200879142 /* liquor.png */,
+				9EFF990D13BFCE17004390A1 /* userFemale.png */,
+				9EFF990A13BFCE0B004390A1 /* userMale.png */,
 				9E8E6C3513BE6C1400879142 /* salad.jpg */,
 				9E8E6C8013BE87A900879142 /* settings.png */,
 				9E8E6C5E13BE7B8900879142 /* mainDish.png */,
@@ -438,6 +444,8 @@
 				9E8E6C7913BE84F000879142 /* ok.png in Resources */,
 				9E8E6C7F13BE875200879142 /* info-icon.png in Resources */,
 				9E8E6C8113BE87AA00879142 /* settings.png in Resources */,
+				9EFF990B13BFCE0B004390A1 /* userMale.png in Resources */,
+				9EFF990E13BFCE17004390A1 /* userFemale.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
