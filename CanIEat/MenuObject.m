@@ -11,7 +11,7 @@
 
 - (void)enterSideChoices:(NSArray *)arr
 {
-        [self.sideChoices addObjectsFromArray:arr];
+    [self.sideChoices addObjectsFromArray:arr];
 }
 
 - (void)enterKeyword:(NSString *)aString

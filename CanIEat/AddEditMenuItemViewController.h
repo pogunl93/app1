@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "MenuObject.h"
 #import "EstablishmentObject.h"
+#import "WelcomeScreenViewController.h"
 
 @interface AddEditMenuItemViewController : UIViewController {
     EstablishmentObject *theRestaurant;// will give us access to the menu
@@ -18,7 +19,7 @@
 @property (retain) MenuObject *aMenuItem;
 
 - (IBAction)userEntersTextField:(UITextField *)tf;
-- (IBAction)userLeavesTextField;
+- (IBAction)userLeavesTextField:(UITextField *)tf;
 - (IBAction)addEditNewMenuItem;
 
 

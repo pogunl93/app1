@@ -1,11 +1,3 @@
-//
-//  WelcomeScreenViewController.m
-//  CanIEat
-//
-//  Created by jlnbuiles on 6/24/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "WelcomeScreenViewController.h"
 #import "ItemsToOrderByCategoryViewController.h"
 
@@ -62,5 +54,15 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+
+
+// for testing!!!!
+- (IBAction)testButton
+{
+    AddEditMenuItemViewController *testView = [[AddEditMenuItemViewController alloc] init];
+    [self.navigationController pushViewController:testView animated:YES];
+}
+
 
 @end

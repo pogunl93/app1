@@ -1,6 +1,6 @@
 #import "CanIEatAppDelegate.h"
 #import "AddEditMenuItemViewController.h"
-
+#import "AddEditMenuItemViewController.h"
 
 @implementation CanIEatAppDelegate
 
@@ -9,11 +9,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UINavigationController *navController = [[UINavigationController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] init];// init nav controller
     WelcomeScreenViewController *homeWindowVC = [[WelcomeScreenViewController alloc] init];
     homeWindowVC.title = @"CanIEat";
+    
+      
+    
     [navController pushViewController:homeWindowVC animated:NO];
     [homeWindowVC release];
+    UITabBarController *tbc = [[UITabBarController alloc] init];// init tab bar controller
+    tbc.viewControllers = [NSArray arrayWithObjects: navController, nil];
+    [navController release];
+    [window addSubview:tbc.view];
+   // [tbc tabBarItem
     [window addSubview:navController.view];
     [self.window makeKeyAndVisible];
     return YES;

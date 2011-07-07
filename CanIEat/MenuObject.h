@@ -2,7 +2,7 @@
 
 @interface MenuObject : NSObject {
     double price;
-    NSString *name;
+    NSMutableString *name;
     NSString *description;// an item's description
     NSMutableArray *sideChoices;// stores the possible side choices for each item
     NSMutableArray *keywords;
@@ -11,8 +11,8 @@
 }
 
 @property double price;
-//@property int numberOfOrdersForThisItem;
-@property (retain) NSString *name, *description;
+@property (copy) NSString *description;// strings get copy
+@property (copy) NSMutableString *name;
 
 // mutable so that the user can modify the choices
 @property (retain) NSMutableArray *sideChoices, *keywords;

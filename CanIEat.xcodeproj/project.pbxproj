@@ -140,7 +140,7 @@
 		9E8E6C7313BE84EF00879142 /* cartAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartAdd.png; sourceTree = "<group>"; };
 		9E8E6C7413BE84EF00879142 /* cartRemove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartRemove.png; sourceTree = "<group>"; };
 		9E8E6C7513BE84F000879142 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
-		9E8E6C7E13BE875100879142 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		9E8E6C7E13BE875100879142 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-icon.png"; path = "../info-icon.png"; sourceTree = "<group>"; };
 		9E8E6C8013BE87A900879142 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		9EFF990A13BFCE0B004390A1 /* userMale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userMale.png; sourceTree = "<group>"; };
 		9EFF990D13BFCE17004390A1 /* userFemale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userFemale.png; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 		7D04DFF413BC310C00040642 = {
 			isa = PBXGroup;
 			children = (
-				9E8E6C7E13BE875100879142 /* info-icon.png */,
 				7D04E06E13BC33D000040642 /* Controllers */,
 				7D9F348A13BCF160002D6B61 /* Views */,
+				9E8E6C3413BE6BCA00879142 /* images */,
 				7D04E00913BC310C00040642 /* Models */,
 				7D9F348813BCF126002D6B61 /* AppDelegate */,
 				7D04E02E13BC310D00040642 /* CanIEatTests */,
@@ -308,7 +308,6 @@
 				9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */,
 				9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */,
 				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
-				9E8E6C3413BE6BCA00879142 /* images */,
 			);
 			name = Views;
 			path = CanIEat;
@@ -317,6 +316,7 @@
 		9E8E6C3413BE6BCA00879142 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9E8E6C7E13BE875100879142 /* info-icon.png */,
 				9E8E6C7013BE838D00879142 /* cart.png */,
 				9E8E6C3013BE6B8F00879142 /* sodaIcon.png */,
 				9E8E6C5C13BE79E200879142 /* liquor.png */,
@@ -343,6 +343,7 @@
 				9E8E6C3213BE6BC200879142 /* hamburger-icon.png */,
 			);
 			name = images;
+			path = CanIEat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
