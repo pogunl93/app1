@@ -11,8 +11,8 @@
 }
 
 @property double price;
-@property (copy) NSString *description;// strings get copy
-@property (copy) NSMutableString *name;
+@property (retain) NSString *description;// strings get copy
+@property (retain) NSMutableString *name;
 
 // mutable so that the user can modify the choices
 @property (retain) NSMutableArray *sideChoices, *keywords;

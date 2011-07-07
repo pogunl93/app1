@@ -3,9 +3,18 @@
 @implementation AddEditMenuItemViewController
 @synthesize theRestaurant, aMenuItem;
 
-- (IBAction)addEditNewMenuItem
+- (IBAction)addEditNewMenuItem// performed when the user hits the create new item
 {
-    //aMenuItem.name = name.text;// the problem might lay in the fact that the string is inmutable and I am assigning it another value after initializing it. look at the nsstring class as well as properties for strings and the copy argument! 
+    if (aMenuItem == nil) {// initialize a new menuItem
+        aMenuItem = [[MenuObject alloc] init];
+    } //else [aMenuItem.name release];
+
+    aMenuItem.name = [NSMutableString stringWithString: name.text];  
+    aMenuItem.price = [price.text doubleValue];
+    [aMenuItem.name retain];
+    NSLog(@"this item will be called: %@", aMenuItem.name);
+    NSLog(@"this will be its price %f", aMenuItem.price);
+
     [self displaySampleOutput];
 }
 
@@ -14,19 +23,14 @@
     topLabel.text = tf.placeholder;// set the label to the placeholder's text
 }
 
-- (IBAction)userLeavesTextField:(UITextField *)tf
+- (IBAction)userLeavesTextField:(UITextField *)tf// called when a user leaves any textfield
 {
-    if (aMenuItem.name == nil) {
-         aMenuItem.name = [[NSMutableString alloc] init];
-    } else [aMenuItem.name release];
-   
-    aMenuItem.name = [NSMutableString stringWithString: name.text];
     [self resignFirstResponder];// this will hide the keyboard once the return key is hit
-    
 }
 
 - (void)dealloc
 {
+    [aMenuItem release];
     [theRestaurant release];
     [super dealloc];
 }
@@ -65,7 +69,7 @@
 {
     testingLabel.text = name.text;
     NSLog(@"the first text field has the following string: %@", name.text);// this is the way to print out arguments in the command line.
-    NSLog(@"aMenuItemName has the following string: %@", aMenuItem.name);
+    NSLog(@"aMenuItem.name has the following string: %@", aMenuItem.name);
 }
 
 @end
