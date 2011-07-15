@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 
-
 @interface BranchObject : NSObject {
     // kind of restaurant. what is its category(s)?
     // its location(s). might have more than one location

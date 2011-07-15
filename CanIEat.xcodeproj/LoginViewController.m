@@ -1,31 +1,24 @@
-#import "ItemsToOrderByCategoryViewController.h"
+#import "LoginViewController.h"
 
-@implementation ItemsToOrderByCategoryViewController
-
-- (void)setup
-{
-    UITabBarItem *menu = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:0];
-    menu.title = @"Menu";
-    self.tabBarItem = menu;
-    [menu release];
-}
+@implementation LoginViewController
+@synthesize email, password, logo, createAccount, logIn;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [self setup];
+        // Custom initialization
     }
     return self;
 }
 
-- (void)awakeFromNib
-{
-    [self setup];
-    [super awakeFromNib];
-}
 - (void)dealloc
 {
+    [self.email release];
+    [self.password release];
+    [self.logIn release];
+    [self.createAccount release];
+    [self.logo release];
     [super dealloc];
 }
 
@@ -43,6 +36,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.email = nil;
+    self.password = nil;
+    self.logo = nil;
+    self.logIn = nil;
+    self.createAccount = nil;
 }
 
 - (void)viewDidUnload

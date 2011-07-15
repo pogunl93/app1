@@ -30,10 +30,17 @@
 		7D04E05613BC314A00040642 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E05113BC314A00040642 /* UserObject.m */; };
 		7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E06013BC329100040642 /* WelcomeScreenViewController.m */; };
 		7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */; };
+		7D26E6ED13CC0A5700D372E4 /* sideObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26E6EC13CC0A5700D372E4 /* sideObject.m */; };
+		7D26E6F113CC0A6600D372E4 /* toppingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26E6F013CC0A6600D372E4 /* toppingObject.m */; };
+		7D26E70C13CC11A700D372E4 /* old_file.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D26E70B13CC11A700D372E4 /* old_file.xib */; };
+		7D31AA3113CB664F007A9634 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D31AA2F13CB664F007A9634 /* LoginViewController.m */; };
+		7D31AA3213CB664F007A9634 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D31AA3013CB664F007A9634 /* LoginViewController.xib */; };
+		7D7B824C13CF25DD00FD20AB /* EditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */; };
+		7D7B824D13CF25DD00FD20AB /* EditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */; };
 		9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */; };
 		9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */; };
-		9E8E6C2E13BE642C00879142 /* AddEditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */; };
-		9E8E6C2F13BE642C00879142 /* AddEditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */; };
+		9E8E6C2E13BE642C00879142 /* AddMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */; };
+		9E8E6C2F13BE642C00879142 /* AddMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */; };
 		9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3013BE6B8F00879142 /* sodaIcon.png */; };
 		9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3213BE6BC200879142 /* hamburger-icon.png */; };
 		9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3513BE6C1400879142 /* salad.jpg */; };
@@ -109,12 +116,23 @@
 		7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
 		7D04E06013BC329100040642 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
 		7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeScreenViewController.xib; sourceTree = "<group>"; };
+		7D26E6EB13CC0A5700D372E4 /* sideObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sideObject.h; path = ../../../../programming/ios/app1/CanIEat/sideObject.h; sourceTree = "<group>"; };
+		7D26E6EC13CC0A5700D372E4 /* sideObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sideObject.m; path = ../../../../programming/ios/app1/CanIEat/sideObject.m; sourceTree = "<group>"; };
+		7D26E6EF13CC0A6600D372E4 /* toppingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = toppingObject.h; path = ../../../../programming/ios/app1/CanIEat/toppingObject.h; sourceTree = "<group>"; };
+		7D26E6F013CC0A6600D372E4 /* toppingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = toppingObject.m; path = ../../../../programming/ios/app1/CanIEat/toppingObject.m; sourceTree = "<group>"; };
+		7D26E70B13CC11A700D372E4 /* old_file.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = old_file.xib; sourceTree = "<group>"; };
+		7D31AA2E13CB664F007A9634 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.h; sourceTree = "<group>"; };
+		7D31AA2F13CB664F007A9634 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.m; sourceTree = "<group>"; };
+		7D31AA3013CB664F007A9634 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.xib; sourceTree = "<group>"; };
+		7D7B824913CF25DD00FD20AB /* EditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditMenuItemViewController.h; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.h; sourceTree = "<group>"; };
+		7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditMenuItemViewController.m; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.m; sourceTree = "<group>"; };
+		7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditMenuItemViewController.xib; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.xib; sourceTree = "<group>"; };
 		9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
 		9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
 		9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
-		9E8E6C2B13BE642C00879142 /* AddEditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditMenuItemViewController.h; sourceTree = "<group>"; };
-		9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditMenuItemViewController.m; sourceTree = "<group>"; };
-		9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditMenuItemViewController.xib; sourceTree = "<group>"; };
+		9E8E6C2B13BE642C00879142 /* AddMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMenuItemViewController.h; sourceTree = "<group>"; };
+		9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMenuItemViewController.m; sourceTree = "<group>"; };
+		9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMenuItemViewController.xib; sourceTree = "<group>"; };
 		9E8E6C3013BE6B8F00879142 /* sodaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sodaIcon.png; sourceTree = "<group>"; };
 		9E8E6C3213BE6BC200879142 /* hamburger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-icon.png"; sourceTree = "<group>"; };
 		9E8E6C3513BE6C1400879142 /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
@@ -213,6 +231,10 @@
 				7D04E04F13BC314A00040642 /* BranchObject.m */,
 				9E8E6C6813BE7CFE00879142 /* EstablishmentObject.h */,
 				9E8E6C6913BE7CFE00879142 /* EstablishmentObject.m */,
+				7D26E6EF13CC0A6600D372E4 /* toppingObject.h */,
+				7D26E6F013CC0A6600D372E4 /* toppingObject.m */,
+				7D26E6EB13CC0A5700D372E4 /* sideObject.h */,
+				7D26E6EC13CC0A5700D372E4 /* sideObject.m */,
 				7D04E04913BC314A00040642 /* MenuObject.h */,
 				7D04E04A13BC314A00040642 /* MenuObject.m */,
 				7D04E04C13BC314A00040642 /* OrderObject.h */,
@@ -281,12 +303,16 @@
 		7D04E06E13BC33D000040642 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */,
-				9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */,
-				9E8E6C2B13BE642C00879142 /* AddEditMenuItemViewController.h */,
-				9E8E6C2C13BE642C00879142 /* AddEditMenuItemViewController.m */,
+				7D31AA2E13CB664F007A9634 /* LoginViewController.h */,
+				7D31AA2F13CB664F007A9634 /* LoginViewController.m */,
 				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
 				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
+				9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */,
+				9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */,
+				9E8E6C2B13BE642C00879142 /* AddMenuItemViewController.h */,
+				9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */,
+				7D7B824913CF25DD00FD20AB /* EditMenuItemViewController.h */,
+				7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */,
 			);
 			name = Controllers;
 			path = CanIEat;
@@ -305,9 +331,12 @@
 		7D9F348A13BCF160002D6B61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */,
-				9E8E6C2D13BE642C00879142 /* AddEditMenuItemViewController.xib */,
+				7D26E70B13CC11A700D372E4 /* old_file.xib */,
+				7D31AA3013CB664F007A9634 /* LoginViewController.xib */,
 				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
+				9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */,
+				9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */,
+				7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */,
 			);
 			name = Views;
 			path = CanIEat;
@@ -419,7 +448,7 @@
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
 				9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */,
-				9E8E6C2F13BE642C00879142 /* AddEditMenuItemViewController.xib in Resources */,
+				9E8E6C2F13BE642C00879142 /* AddMenuItemViewController.xib in Resources */,
 				9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */,
 				9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */,
 				9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */,
@@ -447,6 +476,9 @@
 				9E8E6C8113BE87AA00879142 /* settings.png in Resources */,
 				9EFF990B13BFCE0B004390A1 /* userMale.png in Resources */,
 				9EFF990E13BFCE17004390A1 /* userFemale.png in Resources */,
+				7D31AA3213CB664F007A9634 /* LoginViewController.xib in Resources */,
+				7D26E70C13CC11A700D372E4 /* old_file.xib in Resources */,
+				7D7B824D13CF25DD00FD20AB /* EditMenuItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +524,12 @@
 				7D04E05613BC314A00040642 /* UserObject.m in Sources */,
 				7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */,
 				9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */,
-				9E8E6C2E13BE642C00879142 /* AddEditMenuItemViewController.m in Sources */,
+				9E8E6C2E13BE642C00879142 /* AddMenuItemViewController.m in Sources */,
 				9E8E6C6A13BE7CFE00879142 /* EstablishmentObject.m in Sources */,
+				7D31AA3113CB664F007A9634 /* LoginViewController.m in Sources */,
+				7D26E6ED13CC0A5700D372E4 /* sideObject.m in Sources */,
+				7D26E6F113CC0A6600D372E4 /* toppingObject.m in Sources */,
+				7D7B824C13CF25DD00FD20AB /* EditMenuItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

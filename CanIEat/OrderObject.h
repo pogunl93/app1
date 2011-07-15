@@ -15,3 +15,6 @@
 }
 
 @end
+
+/* orders can either be current or past. current orders can be submitted (restaurant received them), ready for pick up. ready for delivery, in delivery, picked up or delivered
+*/

@@ -1,29 +1,16 @@
-#import "ItemsToOrderByCategoryViewController.h"
+#import "EditMenuItemViewController.h"
 
-@implementation ItemsToOrderByCategoryViewController
-
-- (void)setup
-{
-    UITabBarItem *menu = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:0];
-    menu.title = @"Menu";
-    self.tabBarItem = menu;
-    [menu release];
-}
+@implementation EditMenuItemViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [self setup];
+        // Custom initialization
     }
     return self;
 }
 
-- (void)awakeFromNib
-{
-    [self setup];
-    [super awakeFromNib];
-}
 - (void)dealloc
 {
     [super dealloc];

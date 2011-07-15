@@ -4,13 +4,21 @@
 
 @implementation WelcomeScreenViewController
 
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+     //   [self setup];
     }
     return self;
+}
+
+- (void)awakeFromNib
+{
+   // [self setup];
+    [super awakeFromNib];
 }
 
 -(IBAction)menuPressed:(UIButton *)butPressed
@@ -60,7 +68,7 @@
 // for testing!!!!
 - (IBAction)testButton
 {
-    AddEditMenuItemViewController *testView = [[AddEditMenuItemViewController alloc] init];
+    AddMenuItemViewController *testView = [[AddMenuItemViewController alloc] init];
     [self.navigationController pushViewController:testView animated:YES];
 }
 

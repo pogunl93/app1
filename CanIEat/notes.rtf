@@ -4,18 +4,15 @@
 \margl1440\margr1440\vieww9000\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
 
-\f0\fs24 \cf0 when the customer hits the my location button, navigate to a new screen that will have pins where ever there are locations in the map.\
+\f0\fs24 \cf0 ====================WelcomeScreen=======================\
 \
-convenience initializers:\
-{\field{\*\fldinst{HYPERLINK "http://cupsofcocoa.wordpress.com/2011/04/17/objective-c-lesson-11-object-initialization/"}}{\fldrslt http://cupsofcocoa.wordpress.com/2011/04/17/objective-c-lesson-11-object-initialization/}}\
+add the tabbar items to the app\
 \
-singletons and app delegates:\
-{\field{\*\fldinst{HYPERLINK "http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html"}}{\fldrslt http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html}}\
+create a login/create account screen that will only appear once\
 \
-need a website where the restaurants can register for the service\
+when the customer hits the my location button, navigate to a new screen that will have pins where ever there are locations in the map.\
 \
-need a database to store the menu and customer data (SQL)\
-\
+below the search bar, create a promotional area that can be rented in the future. It will be used for coupons and specials of the week in the particular app and it will feature several restaurants in the general app.\
 \
 ================OrderObject Implementation=================\
 \
@@ -28,16 +25,31 @@ how to inform the restaurant about an incoming order? iphone might not be as con
 \
 create a menu (ONCE, when the application is first opened!) for the establishment in either the model or a delegate that can be passed to both views and models\
 \
-save the menu every time the application is closed\
+save the menu to a server every time the application is closed\
 \
 retrieve the menu every time the application is re-opened\
 \
-in the GUI that takes in a new menu item from the restaurant, we can use gray letters inside the textboxes instead of labels to make the gui a lot cleaner\
-\
 UIImage or NSImage for the images of the menu items\
 \
-how to dismiss the keyboard in a UITextView:\
-{\field{\*\fldinst{HYPERLINK "http://iphonedevelopertips.com/cocoa/how-to-dismiss-the-keyboard-when-using-a-uitextview.html"}}{\fldrslt http://iphonedevelopertips.com/cocoa/how-to-dismiss-the-keyboard-when-using-a-uitextview.html}}\
-\
 how to create a data entry screen\
-{\field{\*\fldinst{HYPERLINK "http://iphoneincubator.com/blog/tag/uitextview"}}{\fldrslt http://iphoneincubator.com/blog/tag/uitextview}}}
+{\field{\*\fldinst{HYPERLINK "http://iphoneincubator.com/blog/tag/uitextview"}}{\fldrslt http://iphoneincubator.com/blog/tag/uitextview}}\
+\
+\
+================Misc. Notes==============================\
+\
+the "my orders" button should take the user to a window that displays the status of the current/previous orders. current orders may be submit\
+\
+convenience initializers:\
+{\field{\*\fldinst{HYPERLINK "http://cupsofcocoa.wordpress.com/2011/04/17/objective-c-lesson-11-object-initialization/"}}{\fldrslt http://cupsofcocoa.wordpress.com/2011/04/17/objective-c-lesson-11-object-initialization/}}\
+\
+singletons and app delegates:\
+{\field{\*\fldinst{HYPERLINK "http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html"}}{\fldrslt http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html}}\
+\
+need a website where the restaurants can register for the service\
+\
+need a database to store the menu and customer data (SQL)\
+\
+create an account button at the right of the nav. controller which will let the user log in/out at any given time.\
+\
+check whether it is more efficient to use an nsarray or an nsdictionary\
+}

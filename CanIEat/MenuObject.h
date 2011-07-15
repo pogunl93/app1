@@ -2,24 +2,18 @@
 
 @interface MenuObject : NSObject {
     double price;
-    NSMutableString *name;
-    NSString *description;// an item's description
-    NSMutableArray *sideChoices;// stores the possible side choices for each item
+    NSMutableString *name, *description, *category;
     NSMutableArray *keywords;
-    // optional: image of the item. we can have predertmined images for the items
-    // category of dish
+    NSInteger numberOfSides, numberOfToppings;
+    UIImage *image;// we can have predertmined images for the items and give the user the option of modifying them.
+    // category of dish: sandwich, entree, drink, dessert, etc
 }
 
 @property double price;
-@property (retain) NSString *description;// strings get copy
-@property (retain) NSMutableString *name;
-
+@property (retain) NSMutableString *name, *description, *category;
+@property NSInteger numberOfSides, numberOfToppings;
 // mutable so that the user can modify the choices
-@property (retain) NSMutableArray *sideChoices, *keywords;
-
-- (void)enterSideChoice: (NSString *)aString;// only one side is added
-- (void)enterSideChoices:(NSArray *)arr;// more than one side is added
-- (void)enterKeyword: (NSString *)aString; 
-- (void)enterKeywords: (NSArray *)arr;
+@property (retain) NSMutableArray *keywords;
+@property (retain) UIImage *image;
 
 @end
