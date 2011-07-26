@@ -1,10 +1,8 @@
 #import "WelcomeScreenViewController.h"
-#import "ItemsToOrderByCategoryViewController.h"
-
 
 @implementation WelcomeScreenViewController
 
-
+@synthesize button;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -19,14 +17,6 @@
 {
    // [self setup];
     [super awakeFromNib];
-}
-
--(IBAction)menuPressed:(UIButton *)butPressed
-{
-    ItemsToOrderByCategoryViewController *categoriesVC = [[ItemsToOrderByCategoryViewController alloc] init];
-    categoriesVC.title = @"Categories";
-    [self.navigationController pushViewController:categoriesVC animated:YES];
-    [categoriesVC release];
 }
 
 - (void)dealloc
@@ -48,6 +38,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"CanIEat";
 }
 
 - (void)viewDidUnload
@@ -65,12 +56,27 @@
 
 
 
+
 // for testing!!!!
-- (IBAction)testButton
+- (IBAction)test1
 {
-    AddMenuItemViewController *testView = [[AddMenuItemViewController alloc] init];
-    [self.navigationController pushViewController:testView animated:YES];
+    MenuViewController *mVC = [[MenuViewController alloc] init];
+    [self.navigationController pushViewController:mVC animated:YES];
+    [mVC release];
 }
 
 
+- (IBAction)testButton
+{
+    NewItemViewController *testVC = [[NewItemViewController alloc] init];
+    [self.navigationController pushViewController:testVC animated:YES];
+    [testVC release];
+}
+
+- (IBAction)test2
+{
+    EditItemViewController *eVC = [[EditItemViewController alloc] init];
+    [self.navigationController pushViewController:eVC animated:YES];
+    [eVC release];
+}
 @end

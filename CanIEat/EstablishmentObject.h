@@ -3,6 +3,8 @@
 #import <Foundation/Foundation.h>
 
 @interface EstablishmentObject : NSObject {
+ 
+    
     
 }
 

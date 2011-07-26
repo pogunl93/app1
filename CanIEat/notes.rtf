@@ -1,12 +1,15 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\rtf1\ansi\ansicpg1252\cocoartf1138
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \margl1440\margr1440\vieww9000\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 ====================WelcomeScreen=======================\
 \
-add the tabbar items to the app\
+\
+add nav controller to the tabbar:\
+\
+{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/library/ios/#featuredarticles/ViewControllerPGforiPhoneOS/CombiningViewControllers/CombiningViewControllers.html"}}{\fldrslt http://developer.apple.com/library/ios/#featuredarticles/ViewControllerPGforiPhoneOS/CombiningViewControllers/CombiningViewControllers.html}}\
 \
 create a login/create account screen that will only appear once\
 \
@@ -29,10 +32,46 @@ save the menu to a server every time the application is closed\
 \
 retrieve the menu every time the application is re-opened\
 \
-UIImage or NSImage for the images of the menu items\
-\
 how to create a data entry screen\
 {\field{\*\fldinst{HYPERLINK "http://iphoneincubator.com/blog/tag/uitextview"}}{\fldrslt http://iphoneincubator.com/blog/tag/uitextview}}\
+\
+hide keyboard when touching outside of a textfield\
+\
+placeholder on uitextview (gray label)\
+\
+test input on all fields\
+\
+add image\
+\
+add to restaurant object\
+\
+upload to server\
+\
+\
+================MenuViewController==============================\
+\
+\
+how to create the menu pages as a set of scrollable views:\
+{\field{\*\fldinst{HYPERLINK "http://idevzilla.com/2010/09/16/uiscrollview-a-really-simple-tutorial/"}}{\fldrslt http://idevzilla.com/2010/09/16/uiscrollview-a-really-simple-tutorial/}}\
+\
+\
+page-turning similar to ibooks:\
+https://github.com/brow/leaves\
+\
+scroll using page mode (apple reference)\
+\
+\
+================NewItemViewController==============================\
+\
+\
+keeping content from beneath the keyboard:\
+http://mobile.tutsplus.com/tutorials/iphone/ios-sdk-keeping-content-from-underneath-the-keyboard/\
+\
+adding an image can be accomplished by using an image picker:\
+http://mscerts.programming4.us/programming/iphone%20programming%20%20%20the%20image%20picker%20view%20controller%20-%20adding%20the%20image%20picker%20to%20the%20city%20guide%20application.aspx\
+\
+\
+add a hide and a next key to the keyboard when typing in any of the fields and a done key when finished entering the last field.\
 \
 \
 ================Misc. Notes==============================\
@@ -47,7 +86,7 @@ singletons and app delegates:\
 \
 need a website where the restaurants can register for the service\
 \
-need a database to store the menu and customer data (SQL)\
+need a database to store the menu and customer data (SQL Lite)\
 \
 create an account button at the right of the nav. controller which will let the user log in/out at any given time.\
 \

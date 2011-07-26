@@ -30,17 +30,36 @@
 		7D04E05613BC314A00040642 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E05113BC314A00040642 /* UserObject.m */; };
 		7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E06013BC329100040642 /* WelcomeScreenViewController.m */; };
 		7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */; };
+		7D1FA62D13D652D8006B9958 /* EditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1FA62B13D652D8006B9958 /* EditItemViewController.m */; };
+		7D1FA62E13D652D8006B9958 /* EditItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1FA62C13D652D8006B9958 /* EditItemViewController.xib */; };
 		7D26E6ED13CC0A5700D372E4 /* sideObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26E6EC13CC0A5700D372E4 /* sideObject.m */; };
 		7D26E6F113CC0A6600D372E4 /* toppingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26E6F013CC0A6600D372E4 /* toppingObject.m */; };
-		7D26E70C13CC11A700D372E4 /* old_file.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D26E70B13CC11A700D372E4 /* old_file.xib */; };
 		7D31AA3113CB664F007A9634 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D31AA2F13CB664F007A9634 /* LoginViewController.m */; };
 		7D31AA3213CB664F007A9634 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D31AA3013CB664F007A9634 /* LoginViewController.xib */; };
-		7D7B824C13CF25DD00FD20AB /* EditMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */; };
-		7D7B824D13CF25DD00FD20AB /* EditMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */; };
-		9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */; };
-		9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */; };
-		9E8E6C2E13BE642C00879142 /* AddMenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */; };
-		9E8E6C2F13BE642C00879142 /* AddMenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */; };
+		7D6446F813D3404E001AB73E /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6446F613D3404E001AB73E /* MyOrderViewController.m */; };
+		7D6446F913D3404E001AB73E /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D6446F713D3404E001AB73E /* MyOrderViewController.xib */; };
+		7D6446FE13D343ED001AB73E /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6446FC13D343ED001AB73E /* LocationsViewController.m */; };
+		7D6446FF13D343ED001AB73E /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D6446FD13D343ED001AB73E /* LocationsViewController.xib */; };
+		7D64470313D34448001AB73E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D64470113D34447001AB73E /* MenuViewController.m */; };
+		7D64470413D34448001AB73E /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D64470213D34447001AB73E /* MenuViewController.xib */; };
+		7D64470813D34489001AB73E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D64470613D34488001AB73E /* SettingsViewController.m */; };
+		7D64470913D34489001AB73E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D64470713D34488001AB73E /* SettingsViewController.xib */; };
+		7D940FD313D5C79A00E80179 /* MenuCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */; };
+		7D940FD413D5C79A00E80179 /* MenuCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */; };
+		7D940FD613D5C97600E80179 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD513D5C97600E80179 /* 80-shopping-cart.png */; };
+		7D940FDA13D5E2A600E80179 /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FD813D5E2A600E80179 /* MenuListViewController.m */; };
+		7D940FDB13D5E2A600E80179 /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD913D5E2A600E80179 /* MenuListViewController.xib */; };
+		7D940FDD13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FDC13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg */; };
+		7D940FDF13D5EDF200E80179 /* pasta_broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FDE13D5EDF200E80179 /* pasta_broccoli.jpg */; };
+		7D940FE113D5EDFF00E80179 /* steak_&_potatoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FE013D5EDFF00E80179 /* steak_&_potatoes.jpg */; };
+		7D940FE513D5FFE400E80179 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FE313D5FFE300E80179 /* NewItemViewController.m */; };
+		7D940FE613D5FFE400E80179 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FE413D5FFE400E80179 /* NewItemViewController.xib */; };
+		7DCCCD0B13D3EE2100CD7D96 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */; };
+		7DCCCD0D13D3EE7F00CD7D96 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */; };
+		7DCCCD0F13D3EF0700CD7D96 /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */; };
+		7DCCCD1113D3EF9E00CD7D96 /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */; };
+		7DCCCD1313D3F25F00CD7D96 /* 125-food.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1213D3F25F00CD7D96 /* 125-food.png */; };
+		7DCCCD1513D3F2DB00CD7D96 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */; };
 		9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3013BE6B8F00879142 /* sodaIcon.png */; };
 		9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3213BE6BC200879142 /* hamburger-icon.png */; };
 		9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3513BE6C1400879142 /* salad.jpg */; };
@@ -116,23 +135,47 @@
 		7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
 		7D04E06013BC329100040642 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
 		7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeScreenViewController.xib; sourceTree = "<group>"; };
+		7D1FA62A13D652D8006B9958 /* EditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditItemViewController.h; sourceTree = "<group>"; };
+		7D1FA62B13D652D8006B9958 /* EditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditItemViewController.m; sourceTree = "<group>"; };
+		7D1FA62C13D652D8006B9958 /* EditItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditItemViewController.xib; sourceTree = "<group>"; };
 		7D26E6EB13CC0A5700D372E4 /* sideObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sideObject.h; path = ../../../../programming/ios/app1/CanIEat/sideObject.h; sourceTree = "<group>"; };
 		7D26E6EC13CC0A5700D372E4 /* sideObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sideObject.m; path = ../../../../programming/ios/app1/CanIEat/sideObject.m; sourceTree = "<group>"; };
 		7D26E6EF13CC0A6600D372E4 /* toppingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = toppingObject.h; path = ../../../../programming/ios/app1/CanIEat/toppingObject.h; sourceTree = "<group>"; };
 		7D26E6F013CC0A6600D372E4 /* toppingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = toppingObject.m; path = ../../../../programming/ios/app1/CanIEat/toppingObject.m; sourceTree = "<group>"; };
-		7D26E70B13CC11A700D372E4 /* old_file.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = old_file.xib; sourceTree = "<group>"; };
 		7D31AA2E13CB664F007A9634 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.h; sourceTree = "<group>"; };
 		7D31AA2F13CB664F007A9634 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.m; sourceTree = "<group>"; };
 		7D31AA3013CB664F007A9634 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../../../../programming/ios/app1/CanIEat.xcodeproj/LoginViewController.xib; sourceTree = "<group>"; };
-		7D7B824913CF25DD00FD20AB /* EditMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditMenuItemViewController.h; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.h; sourceTree = "<group>"; };
-		7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditMenuItemViewController.m; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.m; sourceTree = "<group>"; };
-		7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditMenuItemViewController.xib; path = ../../../../programming/ios/app1/CanIEat/EditMenuItemViewController.xib; sourceTree = "<group>"; };
-		9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsToOrderByCategoryViewController.h; sourceTree = "<group>"; };
-		9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsToOrderByCategoryViewController.m; sourceTree = "<group>"; };
-		9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemsToOrderByCategoryViewController.xib; sourceTree = "<group>"; };
-		9E8E6C2B13BE642C00879142 /* AddMenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMenuItemViewController.h; sourceTree = "<group>"; };
-		9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMenuItemViewController.m; sourceTree = "<group>"; };
-		9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMenuItemViewController.xib; sourceTree = "<group>"; };
+		7D6446F513D3404E001AB73E /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyOrderViewController.h; path = ../../../../programming/ios/app1/CanIEat/MyOrderViewController.h; sourceTree = "<group>"; };
+		7D6446F613D3404E001AB73E /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyOrderViewController.m; path = ../../../../programming/ios/app1/CanIEat/MyOrderViewController.m; sourceTree = "<group>"; };
+		7D6446F713D3404E001AB73E /* MyOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyOrderViewController.xib; path = ../../../../programming/ios/app1/CanIEat/MyOrderViewController.xib; sourceTree = "<group>"; };
+		7D6446FB13D343ED001AB73E /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationsViewController.h; path = ../../../../programming/ios/app1/CanIEat/LocationsViewController.h; sourceTree = "<group>"; };
+		7D6446FC13D343ED001AB73E /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationsViewController.m; path = ../../../../programming/ios/app1/CanIEat/LocationsViewController.m; sourceTree = "<group>"; };
+		7D6446FD13D343ED001AB73E /* LocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LocationsViewController.xib; path = ../../../../programming/ios/app1/CanIEat/LocationsViewController.xib; sourceTree = "<group>"; };
+		7D64470013D34447001AB73E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../../../../programming/ios/app1/CanIEat/MenuViewController.h; sourceTree = "<group>"; };
+		7D64470113D34447001AB73E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../../../../programming/ios/app1/CanIEat/MenuViewController.m; sourceTree = "<group>"; };
+		7D64470213D34447001AB73E /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = ../../../../programming/ios/app1/CanIEat/MenuViewController.xib; sourceTree = "<group>"; };
+		7D64470513D34488001AB73E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.h; sourceTree = "<group>"; };
+		7D64470613D34488001AB73E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.m; sourceTree = "<group>"; };
+		7D64470713D34488001AB73E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.xib; sourceTree = "<group>"; };
+		7D940FD013D5C79A00E80179 /* MenuCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoriesViewController.h; sourceTree = "<group>"; };
+		7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoriesViewController.m; sourceTree = "<group>"; };
+		7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCategoriesViewController.xib; sourceTree = "<group>"; };
+		7D940FD513D5C97600E80179 /* 80-shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-shopping-cart.png"; sourceTree = "<group>"; };
+		7D940FD713D5E2A500E80179 /* MenuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuListViewController.h; sourceTree = "<group>"; };
+		7D940FD813D5E2A600E80179 /* MenuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuListViewController.m; sourceTree = "<group>"; };
+		7D940FD913D5E2A600E80179 /* MenuListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuListViewController.xib; sourceTree = "<group>"; };
+		7D940FDC13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ranch_&_ bacon_chicken_sandwich.jpg"; sourceTree = "<group>"; };
+		7D940FDE13D5EDF200E80179 /* pasta_broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta_broccoli.jpg; sourceTree = "<group>"; };
+		7D940FE013D5EDFF00E80179 /* steak_&_potatoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "steak_&_potatoes.jpg"; sourceTree = "<group>"; };
+		7D940FE213D5FFE300E80179 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
+		7D940FE313D5FFE300E80179 /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
+		7D940FE413D5FFE400E80179 /* NewItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20-gear2.png"; path = "../../../../programming/ios/app1/CanIEat/20-gear2.png"; sourceTree = "<group>"; };
+		7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "36-toolbox.png"; path = "../../../../programming/ios/app1/CanIEat/36-toolbox.png"; sourceTree = "<group>"; };
+		7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "48-fork-and-knife.png"; path = "../../../../programming/ios/app1/CanIEat/48-fork-and-knife.png"; sourceTree = "<group>"; };
+		7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "73-radar.png"; path = "../../../../programming/ios/app1/CanIEat/73-radar.png"; sourceTree = "<group>"; };
+		7DCCCD1213D3F25F00CD7D96 /* 125-food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "125-food.png"; path = "../../../../programming/ios/app1/CanIEat/125-food.png"; sourceTree = "<group>"; };
+		7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-magnify.png"; path = "../../../../programming/ios/app1/CanIEat/06-magnify.png"; sourceTree = "<group>"; };
 		9E8E6C3013BE6B8F00879142 /* sodaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sodaIcon.png; sourceTree = "<group>"; };
 		9E8E6C3213BE6BC200879142 /* hamburger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-icon.png"; sourceTree = "<group>"; };
 		9E8E6C3513BE6C1400879142 /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
@@ -199,6 +242,8 @@
 				7D04E02E13BC310D00040642 /* CanIEatTests */,
 				7D04E00213BC310C00040642 /* Frameworks */,
 				7D04E00013BC310C00040642 /* Products */,
+				7D04E01C13BC310C00040642 /* iPad */,
+				7D04E01513BC310C00040642 /* iPhone */,
 				7D04E04B13BC314A00040642 /* notes.rtf */,
 				9E8E6C6E13BE7DCB00879142 /* general_specs.rtf */,
 				9E8E6C6C13BE7DB200879142 /* future_feats.rtf */,
@@ -241,8 +286,6 @@
 				7D04E04D13BC314A00040642 /* OrderObject.m */,
 				7D04E05013BC314A00040642 /* UserObject.h */,
 				7D04E05113BC314A00040642 /* UserObject.m */,
-				7D04E01513BC310C00040642 /* iPhone */,
-				7D04E01C13BC310C00040642 /* iPad */,
 				7D04E00A13BC310C00040642 /* Supporting Files */,
 			);
 			name = Models;
@@ -268,6 +311,7 @@
 				7D04E01913BC310C00040642 /* MainWindow_iPhone.xib */,
 			);
 			name = iPhone;
+			path = CanIEat;
 			sourceTree = "<group>";
 		};
 		7D04E01C13BC310C00040642 /* iPad */ = {
@@ -278,6 +322,7 @@
 				7D04E02013BC310D00040642 /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
+			path = CanIEat;
 			sourceTree = "<group>";
 		};
 		7D04E02E13BC310D00040642 /* CanIEatTests */ = {
@@ -307,12 +352,22 @@
 				7D31AA2F13CB664F007A9634 /* LoginViewController.m */,
 				7D04E05F13BC329100040642 /* WelcomeScreenViewController.h */,
 				7D04E06013BC329100040642 /* WelcomeScreenViewController.m */,
-				9E8E6C2513BE63E500879142 /* ItemsToOrderByCategoryViewController.h */,
-				9E8E6C2613BE63E500879142 /* ItemsToOrderByCategoryViewController.m */,
-				9E8E6C2B13BE642C00879142 /* AddMenuItemViewController.h */,
-				9E8E6C2C13BE642C00879142 /* AddMenuItemViewController.m */,
-				7D7B824913CF25DD00FD20AB /* EditMenuItemViewController.h */,
-				7D7B824A13CF25DD00FD20AB /* EditMenuItemViewController.m */,
+				7D6446F513D3404E001AB73E /* MyOrderViewController.h */,
+				7D6446F613D3404E001AB73E /* MyOrderViewController.m */,
+				7D6446FB13D343ED001AB73E /* LocationsViewController.h */,
+				7D6446FC13D343ED001AB73E /* LocationsViewController.m */,
+				7D64470513D34488001AB73E /* SettingsViewController.h */,
+				7D64470613D34488001AB73E /* SettingsViewController.m */,
+				7D940FD013D5C79A00E80179 /* MenuCategoriesViewController.h */,
+				7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */,
+				7D940FD713D5E2A500E80179 /* MenuListViewController.h */,
+				7D940FD813D5E2A600E80179 /* MenuListViewController.m */,
+				7D64470013D34447001AB73E /* MenuViewController.h */,
+				7D64470113D34447001AB73E /* MenuViewController.m */,
+				7D940FE213D5FFE300E80179 /* NewItemViewController.h */,
+				7D940FE313D5FFE300E80179 /* NewItemViewController.m */,
+				7D1FA62A13D652D8006B9958 /* EditItemViewController.h */,
+				7D1FA62B13D652D8006B9958 /* EditItemViewController.m */,
 			);
 			name = Controllers;
 			path = CanIEat;
@@ -331,12 +386,16 @@
 		7D9F348A13BCF160002D6B61 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7D26E70B13CC11A700D372E4 /* old_file.xib */,
 				7D31AA3013CB664F007A9634 /* LoginViewController.xib */,
 				7D04E06113BC329100040642 /* WelcomeScreenViewController.xib */,
-				9E8E6C2713BE63E500879142 /* ItemsToOrderByCategoryViewController.xib */,
-				9E8E6C2D13BE642C00879142 /* AddMenuItemViewController.xib */,
-				7D7B824B13CF25DD00FD20AB /* EditMenuItemViewController.xib */,
+				7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */,
+				7D940FD913D5E2A600E80179 /* MenuListViewController.xib */,
+				7D64470213D34447001AB73E /* MenuViewController.xib */,
+				7D6446F713D3404E001AB73E /* MyOrderViewController.xib */,
+				7D6446FD13D343ED001AB73E /* LocationsViewController.xib */,
+				7D64470713D34488001AB73E /* SettingsViewController.xib */,
+				7D940FE413D5FFE400E80179 /* NewItemViewController.xib */,
+				7D1FA62C13D652D8006B9958 /* EditItemViewController.xib */,
 			);
 			name = Views;
 			path = CanIEat;
@@ -345,17 +404,27 @@
 		9E8E6C3413BE6BCA00879142 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				7D940FE013D5EDFF00E80179 /* steak_&_potatoes.jpg */,
+				7D940FDE13D5EDF200E80179 /* pasta_broccoli.jpg */,
+				7D940FDC13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg */,
+				7D940FD513D5C97600E80179 /* 80-shopping-cart.png */,
+				7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */,
 				9E8E6C7E13BE875100879142 /* info-icon.png */,
+				7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */,
 				9E8E6C7013BE838D00879142 /* cart.png */,
+				7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */,
 				9E8E6C3013BE6B8F00879142 /* sodaIcon.png */,
 				9E8E6C5C13BE79E200879142 /* liquor.png */,
+				7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */,
 				9EFF990D13BFCE17004390A1 /* userFemale.png */,
 				9EFF990A13BFCE0B004390A1 /* userMale.png */,
 				9E8E6C3513BE6C1400879142 /* salad.jpg */,
+				7DCCCD1213D3F25F00CD7D96 /* 125-food.png */,
 				9E8E6C8013BE87A900879142 /* settings.png */,
 				9E8E6C5E13BE7B8900879142 /* mainDish.png */,
 				9E8E6C7213BE84EF00879142 /* cancel.png */,
 				9E8E6C7313BE84EF00879142 /* cartAdd.png */,
+				7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */,
 				9E8E6C7413BE84EF00879142 /* cartRemove.png */,
 				9E8E6C7513BE84F000879142 /* ok.png */,
 				9E8E6C5813BE792900879142 /* hotSOup.png */,
@@ -447,8 +516,6 @@
 				7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */,
 				7D04E05313BC314A00040642 /* notes.rtf in Resources */,
 				7D04E06313BC329100040642 /* WelcomeScreenViewController.xib in Resources */,
-				9E8E6C2913BE63E500879142 /* ItemsToOrderByCategoryViewController.xib in Resources */,
-				9E8E6C2F13BE642C00879142 /* AddMenuItemViewController.xib in Resources */,
 				9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */,
 				9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */,
 				9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */,
@@ -477,8 +544,24 @@
 				9EFF990B13BFCE0B004390A1 /* userMale.png in Resources */,
 				9EFF990E13BFCE17004390A1 /* userFemale.png in Resources */,
 				7D31AA3213CB664F007A9634 /* LoginViewController.xib in Resources */,
-				7D26E70C13CC11A700D372E4 /* old_file.xib in Resources */,
-				7D7B824D13CF25DD00FD20AB /* EditMenuItemViewController.xib in Resources */,
+				7D6446F913D3404E001AB73E /* MyOrderViewController.xib in Resources */,
+				7D6446FF13D343ED001AB73E /* LocationsViewController.xib in Resources */,
+				7D64470413D34448001AB73E /* MenuViewController.xib in Resources */,
+				7D64470913D34489001AB73E /* SettingsViewController.xib in Resources */,
+				7DCCCD0B13D3EE2100CD7D96 /* 20-gear2.png in Resources */,
+				7DCCCD0D13D3EE7F00CD7D96 /* 36-toolbox.png in Resources */,
+				7DCCCD0F13D3EF0700CD7D96 /* 48-fork-and-knife.png in Resources */,
+				7DCCCD1113D3EF9E00CD7D96 /* 73-radar.png in Resources */,
+				7DCCCD1313D3F25F00CD7D96 /* 125-food.png in Resources */,
+				7DCCCD1513D3F2DB00CD7D96 /* 06-magnify.png in Resources */,
+				7D940FD413D5C79A00E80179 /* MenuCategoriesViewController.xib in Resources */,
+				7D940FD613D5C97600E80179 /* 80-shopping-cart.png in Resources */,
+				7D940FDB13D5E2A600E80179 /* MenuListViewController.xib in Resources */,
+				7D940FDD13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg in Resources */,
+				7D940FDF13D5EDF200E80179 /* pasta_broccoli.jpg in Resources */,
+				7D940FE113D5EDFF00E80179 /* steak_&_potatoes.jpg in Resources */,
+				7D940FE613D5FFE400E80179 /* NewItemViewController.xib in Resources */,
+				7D1FA62E13D652D8006B9958 /* EditItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,13 +606,18 @@
 				7D04E05513BC314A00040642 /* BranchObject.m in Sources */,
 				7D04E05613BC314A00040642 /* UserObject.m in Sources */,
 				7D04E06213BC329100040642 /* WelcomeScreenViewController.m in Sources */,
-				9E8E6C2813BE63E500879142 /* ItemsToOrderByCategoryViewController.m in Sources */,
-				9E8E6C2E13BE642C00879142 /* AddMenuItemViewController.m in Sources */,
 				9E8E6C6A13BE7CFE00879142 /* EstablishmentObject.m in Sources */,
 				7D31AA3113CB664F007A9634 /* LoginViewController.m in Sources */,
 				7D26E6ED13CC0A5700D372E4 /* sideObject.m in Sources */,
 				7D26E6F113CC0A6600D372E4 /* toppingObject.m in Sources */,
-				7D7B824C13CF25DD00FD20AB /* EditMenuItemViewController.m in Sources */,
+				7D6446F813D3404E001AB73E /* MyOrderViewController.m in Sources */,
+				7D6446FE13D343ED001AB73E /* LocationsViewController.m in Sources */,
+				7D64470313D34448001AB73E /* MenuViewController.m in Sources */,
+				7D64470813D34489001AB73E /* SettingsViewController.m in Sources */,
+				7D940FD313D5C79A00E80179 /* MenuCategoriesViewController.m in Sources */,
+				7D940FDA13D5E2A600E80179 /* MenuListViewController.m in Sources */,
+				7D940FE513D5FFE400E80179 /* NewItemViewController.m in Sources */,
+				7D1FA62D13D652D8006B9958 /* EditItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
