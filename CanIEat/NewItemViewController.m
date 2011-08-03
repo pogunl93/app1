@@ -1,5 +1,5 @@
 #import "NewItemViewController.h"
-
+// if this is working then this text should show up
 @interface NewItemViewController()
 //- (void)setALocale;
 @end
