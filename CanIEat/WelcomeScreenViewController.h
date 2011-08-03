@@ -3,8 +3,9 @@
 #import "LoginViewController.h"
 #import "MenuViewController.h"
 #import "EditItemViewController.h"
+#import "MenuListViewController.h"
 
-@interface WelcomeScreenViewController : UIViewController {
+@interface WelcomeScreenViewController : UIViewController <UITextFieldDelegate>{
     UIButton *button;
 }
 

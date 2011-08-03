@@ -16,12 +16,6 @@
 		7D04E01B13BC310C00040642 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E01913BC310C00040642 /* MainWindow_iPhone.xib */; };
 		7D04E01F13BC310D00040642 /* CanIEatAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E01E13BC310D00040642 /* CanIEatAppDelegate_iPad.m */; };
 		7D04E02213BC310D00040642 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E02013BC310D00040642 /* MainWindow_iPad.xib */; };
-		7D04E02913BC310D00040642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00313BC310C00040642 /* UIKit.framework */; };
-		7D04E02A13BC310D00040642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00513BC310C00040642 /* Foundation.framework */; };
-		7D04E02B13BC310D00040642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04E00713BC310C00040642 /* CoreGraphics.framework */; };
-		7D04E03313BC310D00040642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E03113BC310D00040642 /* InfoPlist.strings */; };
-		7D04E03613BC310D00040642 /* CanIEatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E03513BC310D00040642 /* CanIEatTests.h */; };
-		7D04E03813BC310D00040642 /* CanIEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E03713BC310D00040642 /* CanIEatTests.m */; };
 		7D04E04313BC311F00040642 /* CanIEatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04213BC311F00040642 /* CanIEatAppDelegate.m */; };
 		7D04E05213BC314A00040642 /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D04E04A13BC314A00040642 /* MenuObject.m */; };
 		7D04E05313BC314A00040642 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D04E04B13BC314A00040642 /* notes.rtf */; };
@@ -44,6 +38,12 @@
 		7D64470413D34448001AB73E /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D64470213D34447001AB73E /* MenuViewController.xib */; };
 		7D64470813D34489001AB73E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D64470613D34488001AB73E /* SettingsViewController.m */; };
 		7D64470913D34489001AB73E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D64470713D34488001AB73E /* SettingsViewController.xib */; };
+		7D77117B13E77C3D006A0277 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77117A13E77C3D006A0277 /* 06-magnify.png */; };
+		7D77117D13E77C46006A0277 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77117C13E77C46006A0277 /* 20-gear2.png */; };
+		7D77117F13E77C4C006A0277 /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77117E13E77C4C006A0277 /* 73-radar.png */; };
+		7D77118113E77C76006A0277 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118013E77C76006A0277 /* 121-landscape.png */; };
+		7D77118313E77E33006A0277 /* 43-film-roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118213E77E33006A0277 /* 43-film-roll.png */; };
+		7D77118513E77EE3006A0277 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118413E77EE3006A0277 /* 86-camera.png */; };
 		7D940FD313D5C79A00E80179 /* MenuCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */; };
 		7D940FD413D5C79A00E80179 /* MenuCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */; };
 		7D940FD613D5C97600E80179 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD513D5C97600E80179 /* 80-shopping-cart.png */; };
@@ -54,12 +54,9 @@
 		7D940FE113D5EDFF00E80179 /* steak_&_potatoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FE013D5EDFF00E80179 /* steak_&_potatoes.jpg */; };
 		7D940FE513D5FFE400E80179 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FE313D5FFE300E80179 /* NewItemViewController.m */; };
 		7D940FE613D5FFE400E80179 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FE413D5FFE400E80179 /* NewItemViewController.xib */; };
-		7DCCCD0B13D3EE2100CD7D96 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */; };
 		7DCCCD0D13D3EE7F00CD7D96 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */; };
 		7DCCCD0F13D3EF0700CD7D96 /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */; };
-		7DCCCD1113D3EF9E00CD7D96 /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */; };
 		7DCCCD1313D3F25F00CD7D96 /* 125-food.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1213D3F25F00CD7D96 /* 125-food.png */; };
-		7DCCCD1513D3F2DB00CD7D96 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */; };
 		9E8E6C3113BE6B8F00879142 /* sodaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3013BE6B8F00879142 /* sodaIcon.png */; };
 		9E8E6C3313BE6BC200879142 /* hamburger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3213BE6BC200879142 /* hamburger-icon.png */; };
 		9E8E6C3813BE6C1400879142 /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E6C3513BE6C1400879142 /* salad.jpg */; };
@@ -90,16 +87,6 @@
 		9EFF990E13BFCE17004390A1 /* userFemale.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFF990D13BFCE17004390A1 /* userFemale.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7D04E02C13BC310D00040642 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7D04DFF613BC310C00040642 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D04DFFE13BC310C00040642;
-			remoteInfo = CanIEat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7D04DFFF13BC310C00040642 /* CanIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D04E00313BC310C00040642 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -115,7 +102,6 @@
 		7D04E01D13BC310D00040642 /* CanIEatAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CanIEatAppDelegate_iPad.h; path = iPad/CanIEatAppDelegate_iPad.h; sourceTree = "<group>"; };
 		7D04E01E13BC310D00040642 /* CanIEatAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CanIEatAppDelegate_iPad.m; path = iPad/CanIEatAppDelegate_iPad.m; sourceTree = "<group>"; };
 		7D04E02113BC310D00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		7D04E02813BC310D00040642 /* CanIEatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIEatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D04E03013BC310D00040642 /* CanIEatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanIEatTests-Info.plist"; sourceTree = "<group>"; };
 		7D04E03213BC310D00040642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D04E03413BC310D00040642 /* CanIEatTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanIEatTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -157,6 +143,12 @@
 		7D64470513D34488001AB73E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.h; sourceTree = "<group>"; };
 		7D64470613D34488001AB73E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.m; sourceTree = "<group>"; };
 		7D64470713D34488001AB73E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../../../../programming/ios/app1/CanIEat/SettingsViewController.xib; sourceTree = "<group>"; };
+		7D77117A13E77C3D006A0277 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		7D77117C13E77C46006A0277 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		7D77117E13E77C4C006A0277 /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar.png"; sourceTree = "<group>"; };
+		7D77118013E77C76006A0277 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "121-landscape.png"; path = "images/121-landscape.png"; sourceTree = SOURCE_ROOT; };
+		7D77118213E77E33006A0277 /* 43-film-roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "43-film-roll.png"; path = "images/43-film-roll.png"; sourceTree = SOURCE_ROOT; };
+		7D77118413E77EE3006A0277 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "86-camera.png"; path = "images/86-camera.png"; sourceTree = SOURCE_ROOT; };
 		7D940FD013D5C79A00E80179 /* MenuCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoriesViewController.h; sourceTree = "<group>"; };
 		7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoriesViewController.m; sourceTree = "<group>"; };
 		7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCategoriesViewController.xib; sourceTree = "<group>"; };
@@ -170,12 +162,9 @@
 		7D940FE213D5FFE300E80179 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
 		7D940FE313D5FFE300E80179 /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
 		7D940FE413D5FFE400E80179 /* NewItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
-		7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20-gear2.png"; path = "../../../../programming/ios/app1/CanIEat/20-gear2.png"; sourceTree = "<group>"; };
 		7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "36-toolbox.png"; path = "../../../../programming/ios/app1/CanIEat/36-toolbox.png"; sourceTree = "<group>"; };
 		7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "48-fork-and-knife.png"; path = "../../../../programming/ios/app1/CanIEat/48-fork-and-knife.png"; sourceTree = "<group>"; };
-		7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "73-radar.png"; path = "../../../../programming/ios/app1/CanIEat/73-radar.png"; sourceTree = "<group>"; };
 		7DCCCD1213D3F25F00CD7D96 /* 125-food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "125-food.png"; path = "../../../../programming/ios/app1/CanIEat/125-food.png"; sourceTree = "<group>"; };
-		7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-magnify.png"; path = "../../../../programming/ios/app1/CanIEat/06-magnify.png"; sourceTree = "<group>"; };
 		9E8E6C3013BE6B8F00879142 /* sodaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sodaIcon.png; sourceTree = "<group>"; };
 		9E8E6C3213BE6BC200879142 /* hamburger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger-icon.png"; sourceTree = "<group>"; };
 		9E8E6C3513BE6C1400879142 /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
@@ -218,16 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D04E02413BC310D00040642 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D04E02913BC310D00040642 /* UIKit.framework in Frameworks */,
-				7D04E02A13BC310D00040642 /* Foundation.framework in Frameworks */,
-				7D04E02B13BC310D00040642 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -254,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				7D04DFFF13BC310C00040642 /* CanIEat.app */,
-				7D04E02813BC310D00040642 /* CanIEatTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,15 +385,19 @@
 				7D940FE013D5EDFF00E80179 /* steak_&_potatoes.jpg */,
 				7D940FDE13D5EDF200E80179 /* pasta_broccoli.jpg */,
 				7D940FDC13D5EDE600E80179 /* ranch_&_ bacon_chicken_sandwich.jpg */,
+				7D77118213E77E33006A0277 /* 43-film-roll.png */,
 				7D940FD513D5C97600E80179 /* 80-shopping-cart.png */,
+				7D77117A13E77C3D006A0277 /* 06-magnify.png */,
 				7DCCCD0C13D3EE7F00CD7D96 /* 36-toolbox.png */,
+				7D77118413E77EE3006A0277 /* 86-camera.png */,
 				9E8E6C7E13BE875100879142 /* info-icon.png */,
-				7DCCCD0A13D3EE2100CD7D96 /* 20-gear2.png */,
 				9E8E6C7013BE838D00879142 /* cart.png */,
+				7D77118013E77C76006A0277 /* 121-landscape.png */,
+				7D77117C13E77C46006A0277 /* 20-gear2.png */,
 				7DCCCD0E13D3EF0700CD7D96 /* 48-fork-and-knife.png */,
 				9E8E6C3013BE6B8F00879142 /* sodaIcon.png */,
+				7D77117E13E77C4C006A0277 /* 73-radar.png */,
 				9E8E6C5C13BE79E200879142 /* liquor.png */,
-				7DCCCD1413D3F2DA00CD7D96 /* 06-magnify.png */,
 				9EFF990D13BFCE17004390A1 /* userFemale.png */,
 				9EFF990A13BFCE0B004390A1 /* userMale.png */,
 				9E8E6C3513BE6C1400879142 /* salad.jpg */,
@@ -424,7 +406,6 @@
 				9E8E6C5E13BE7B8900879142 /* mainDish.png */,
 				9E8E6C7213BE84EF00879142 /* cancel.png */,
 				9E8E6C7313BE84EF00879142 /* cartAdd.png */,
-				7DCCCD1013D3EF9E00CD7D96 /* 73-radar.png */,
 				9E8E6C7413BE84EF00879142 /* cartRemove.png */,
 				9E8E6C7513BE84F000879142 /* ok.png */,
 				9E8E6C5813BE792900879142 /* hotSOup.png */,
@@ -464,25 +445,6 @@
 			productReference = 7D04DFFF13BC310C00040642 /* CanIEat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7D04E02713BC310D00040642 /* CanIEatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D04E03E13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEatTests" */;
-			buildPhases = (
-				7D04E02313BC310D00040642 /* Sources */,
-				7D04E02413BC310D00040642 /* Frameworks */,
-				7D04E02513BC310D00040642 /* Resources */,
-				7D04E02613BC310D00040642 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D04E02D13BC310D00040642 /* PBXTargetDependency */,
-			);
-			name = CanIEatTests;
-			productName = CanIEatTests;
-			productReference = 7D04E02813BC310D00040642 /* CanIEatTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -501,7 +463,6 @@
 			projectRoot = "";
 			targets = (
 				7D04DFFE13BC310C00040642 /* CanIEat */,
-				7D04E02713BC310D00040642 /* CanIEatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -548,12 +509,9 @@
 				7D6446FF13D343ED001AB73E /* LocationsViewController.xib in Resources */,
 				7D64470413D34448001AB73E /* MenuViewController.xib in Resources */,
 				7D64470913D34489001AB73E /* SettingsViewController.xib in Resources */,
-				7DCCCD0B13D3EE2100CD7D96 /* 20-gear2.png in Resources */,
 				7DCCCD0D13D3EE7F00CD7D96 /* 36-toolbox.png in Resources */,
 				7DCCCD0F13D3EF0700CD7D96 /* 48-fork-and-knife.png in Resources */,
-				7DCCCD1113D3EF9E00CD7D96 /* 73-radar.png in Resources */,
 				7DCCCD1313D3F25F00CD7D96 /* 125-food.png in Resources */,
-				7DCCCD1513D3F2DB00CD7D96 /* 06-magnify.png in Resources */,
 				7D940FD413D5C79A00E80179 /* MenuCategoriesViewController.xib in Resources */,
 				7D940FD613D5C97600E80179 /* 80-shopping-cart.png in Resources */,
 				7D940FDB13D5E2A600E80179 /* MenuListViewController.xib in Resources */,
@@ -562,35 +520,16 @@
 				7D940FE113D5EDFF00E80179 /* steak_&_potatoes.jpg in Resources */,
 				7D940FE613D5FFE400E80179 /* NewItemViewController.xib in Resources */,
 				7D1FA62E13D652D8006B9958 /* EditItemViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D04E02513BC310D00040642 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D04E03313BC310D00040642 /* InfoPlist.strings in Resources */,
-				7D04E03613BC310D00040642 /* CanIEatTests.h in Resources */,
+				7D77117B13E77C3D006A0277 /* 06-magnify.png in Resources */,
+				7D77117D13E77C46006A0277 /* 20-gear2.png in Resources */,
+				7D77117F13E77C4C006A0277 /* 73-radar.png in Resources */,
+				7D77118113E77C76006A0277 /* 121-landscape.png in Resources */,
+				7D77118313E77E33006A0277 /* 43-film-roll.png in Resources */,
+				7D77118513E77EE3006A0277 /* 86-camera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7D04E02613BC310D00040642 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D04DFFB13BC310C00040642 /* Sources */ = {
@@ -621,23 +560,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D04E02313BC310D00040642 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D04E03813BC310D00040642 /* CanIEatTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7D04E02D13BC310D00040642 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D04DFFE13BC310C00040642 /* CanIEat */;
-			targetProxy = 7D04E02C13BC310D00040642 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7D04E00C13BC310C00040642 /* InfoPlist.strings */ = {
@@ -739,50 +662,6 @@
 			};
 			name = Release;
 		};
-		7D04E03F13BC310D00040642 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CanIEat.app/CanIEat";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CanIEatTests/CanIEatTests-Prefix.pch";
-				INFOPLIST_FILE = "CanIEatTests/CanIEatTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		7D04E04013BC310D00040642 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CanIEat.app/CanIEat";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CanIEatTests/CanIEatTests-Prefix.pch";
-				INFOPLIST_FILE = "CanIEatTests/CanIEatTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -800,15 +679,6 @@
 			buildConfigurations = (
 				7D04E03C13BC310D00040642 /* Debug */,
 				7D04E03D13BC310D00040642 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D04E03E13BC310D00040642 /* Build configuration list for PBXNativeTarget "CanIEatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D04E03F13BC310D00040642 /* Debug */,
-				7D04E04013BC310D00040642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

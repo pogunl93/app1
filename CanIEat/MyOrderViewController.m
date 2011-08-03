@@ -1,22 +1,14 @@
-#import "WelcomeScreenViewController.h"
+#import "MyOrderViewController.h"
 
-@implementation WelcomeScreenViewController
-
-@synthesize button;
+@implementation MyOrderViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-     //   [self setup];
+        // Custom initialization
     }
     return self;
-}
-
-- (void)awakeFromNib
-{
-   // [self setup];
-    [super awakeFromNib];
 }
 
 - (void)dealloc
@@ -38,8 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"CanIEat";
-
+    self.title = @"My Order";
 }
 
 - (void)viewDidUnload
@@ -55,29 +46,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
-
-
-// for testing!!!!
-- (IBAction)test1
-{
-    MenuViewController *mVC = [[MenuViewController alloc] init];
-    [self.navigationController pushViewController:mVC animated:YES];
-    [mVC release];
-}
-
-
-- (IBAction)testButton
-{
-    NewItemViewController *testVC = [[NewItemViewController alloc] init];
-    [self.navigationController pushViewController:testVC animated:YES];
-    [testVC release];
-}
-
-- (IBAction)test2
-{
-    MenuListViewController *eVC = [[MenuListViewController alloc] init];
-    [self.navigationController pushViewController:eVC animated:YES];
-    [eVC release];
-}
 @end
