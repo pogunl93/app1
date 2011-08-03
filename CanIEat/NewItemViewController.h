@@ -3,6 +3,7 @@
 #import "EstablishmentObject.h"
 #import "WelcomeScreenViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "ReviewItemVC.h"
 
 @interface NewItemViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>{
     EstablishmentObject *aRestaurant;// will give us access to the menu

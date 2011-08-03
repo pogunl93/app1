@@ -2,8 +2,16 @@
 
 @implementation WelcomeScreenViewController
 
-@synthesize button;
+@synthesize aSearchBar;
 
+// will hide the keyboard if the user taps on the view
+- (IBAction)touchView
+{
+    [self.aSearchBar resignFirstResponder];
+}
+
+
+#pragma mark - sdk methods
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -21,6 +29,11 @@
 
 - (void)dealloc
 {
+    //[button release];
+    [aSearchBar release];
+    
+    
+    
     [super dealloc];
 }
 
@@ -31,8 +44,6 @@
     
     // Release any cached data, images, etc that aren't in use.
 }
-
-#pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
@@ -47,6 +58,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.aSearchBar = nil;
+    //self.button = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -57,6 +70,7 @@
 
 
 
+#pragma mark - test methods
 
 // for testing!!!!
 - (IBAction)test1

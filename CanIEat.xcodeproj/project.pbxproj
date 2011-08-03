@@ -44,6 +44,8 @@
 		7D77118113E77C76006A0277 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118013E77C76006A0277 /* 121-landscape.png */; };
 		7D77118313E77E33006A0277 /* 43-film-roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118213E77E33006A0277 /* 43-film-roll.png */; };
 		7D77118513E77EE3006A0277 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D77118413E77EE3006A0277 /* 86-camera.png */; };
+		7D7B9A6B13E8F2FB00B457EA /* ReviewItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B9A6913E8F2FB00B457EA /* ReviewItemVC.m */; };
+		7D7B9A6C13E8F2FB00B457EA /* ReviewItemVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7B9A6A13E8F2FB00B457EA /* ReviewItemVC.xib */; };
 		7D940FD313D5C79A00E80179 /* MenuCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */; };
 		7D940FD413D5C79A00E80179 /* MenuCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */; };
 		7D940FD613D5C97600E80179 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D940FD513D5C97600E80179 /* 80-shopping-cart.png */; };
@@ -149,6 +151,9 @@
 		7D77118013E77C76006A0277 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "121-landscape.png"; path = "images/121-landscape.png"; sourceTree = SOURCE_ROOT; };
 		7D77118213E77E33006A0277 /* 43-film-roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "43-film-roll.png"; path = "images/43-film-roll.png"; sourceTree = SOURCE_ROOT; };
 		7D77118413E77EE3006A0277 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "86-camera.png"; path = "images/86-camera.png"; sourceTree = SOURCE_ROOT; };
+		7D7B9A6813E8F2FB00B457EA /* ReviewItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewItemVC.h; path = ../ReviewItemVC.h; sourceTree = "<group>"; };
+		7D7B9A6913E8F2FB00B457EA /* ReviewItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewItemVC.m; path = ../ReviewItemVC.m; sourceTree = "<group>"; };
+		7D7B9A6A13E8F2FB00B457EA /* ReviewItemVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReviewItemVC.xib; path = ../ReviewItemVC.xib; sourceTree = "<group>"; };
 		7D940FD013D5C79A00E80179 /* MenuCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoriesViewController.h; sourceTree = "<group>"; };
 		7D940FD113D5C79A00E80179 /* MenuCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoriesViewController.m; sourceTree = "<group>"; };
 		7D940FD213D5C79A00E80179 /* MenuCategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCategoriesViewController.xib; sourceTree = "<group>"; };
@@ -346,6 +351,8 @@
 				7D940FE313D5FFE300E80179 /* NewItemViewController.m */,
 				7D1FA62A13D652D8006B9958 /* EditItemViewController.h */,
 				7D1FA62B13D652D8006B9958 /* EditItemViewController.m */,
+				7D7B9A6813E8F2FB00B457EA /* ReviewItemVC.h */,
+				7D7B9A6913E8F2FB00B457EA /* ReviewItemVC.m */,
 			);
 			name = Controllers;
 			path = CanIEat;
@@ -374,6 +381,7 @@
 				7D64470713D34488001AB73E /* SettingsViewController.xib */,
 				7D940FE413D5FFE400E80179 /* NewItemViewController.xib */,
 				7D1FA62C13D652D8006B9958 /* EditItemViewController.xib */,
+				7D7B9A6A13E8F2FB00B457EA /* ReviewItemVC.xib */,
 			);
 			name = Views;
 			path = CanIEat;
@@ -526,6 +534,7 @@
 				7D77118113E77C76006A0277 /* 121-landscape.png in Resources */,
 				7D77118313E77E33006A0277 /* 43-film-roll.png in Resources */,
 				7D77118513E77EE3006A0277 /* 86-camera.png in Resources */,
+				7D7B9A6C13E8F2FB00B457EA /* ReviewItemVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +566,7 @@
 				7D940FDA13D5E2A600E80179 /* MenuListViewController.m in Sources */,
 				7D940FE513D5FFE400E80179 /* NewItemViewController.m in Sources */,
 				7D1FA62D13D652D8006B9958 /* EditItemViewController.m in Sources */,
+				7D7B9A6B13E8F2FB00B457EA /* ReviewItemVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

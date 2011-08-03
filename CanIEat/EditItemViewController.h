@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import "ReviewItemVC.h"
 
 @interface EditItemViewController : UIViewController {
     //retrieve the data pertinent to the given item from the server and fill the fields with the data.

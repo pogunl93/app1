@@ -6,11 +6,13 @@
 #import "MenuListViewController.h"
 
 @interface WelcomeScreenViewController : UIViewController <UITextFieldDelegate>{
-    UIButton *button;
+    UISearchBar *aSearchBar;
 }
 
-@property (retain) IBOutlet UIButton *button;
+@property (nonatomic, retain) IBOutlet UISearchBar *aSearchBar;
 
+
+- (IBAction)touchView;// hides the keyboard when the user taps in the view's area
 - (IBAction)testButton;
 - (IBAction)test1;
 - (IBAction)test2;
